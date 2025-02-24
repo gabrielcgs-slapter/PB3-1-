@@ -44,7 +44,7 @@ data_hora00 = str(data_hora0)
 print(f"Hora de início: {str(data_hora0)[0:16]}")
 
 driver = webdriver.Chrome(service=service, options=options)
-wait = WebDriverWait(driver, 180)
+wait = WebDriverWait(driver, 999)
 driver.get("https://plataformabrasil.saude.gov.br/login.jsf")
 driver.maximize_window()
 
@@ -133,26 +133,11 @@ for i in CAAE:
             o += 1
 
     time.sleep(5)
-    pag_estudo = driver.page_source
-    soup = BeautifulSoup(pag_estudo, 'html.parser')
-
-    #confirmar o estudo na tela
-    confirmar = soup.find_all("td")[15].text.replace("\n", "").replace("CAAE: ","")
-    if confirmar != i:
-        wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() #voltar ao menu
-        time.sleep(5)
-        driver.find_element(By.XPATH, 
-                            '/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').clear() #apagar
-        driver.find_element(By.XPATH, 
-                            '/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').send_keys(i) #escrever CAAE
-        driver.find_element(By.XPATH, 
-                            '/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').send_keys('\ue006') #clicar para pesquisar
-        time.sleep(5)
-        wait.until(EC.visibility_of_element_located((By.XPATH,"/html/body/div[3]/div/div[6]/div[1]/form/div[2]/div[1]")))
-        pag_estudo = driver.page_source
-        soup = BeautifulSoup(pag_estudo, 'html.parser')
     
-    wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() #voltar ao menu
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    
+    #voltar ao menu
+    wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() 
     
     #extrai o nome do estudo
     nome_estudo = soup.find('td', class_="text-top").text[21:].replace('"',"")
@@ -170,31 +155,31 @@ for i in CAAE:
     for span in a:
         b.append(span.text)
     
-    coluna1 = b[0::8]
-    coluna2 = b[1::8]
-    coluna3 = b[2::8]
-    coluna4 = b[3::8]
-    coluna5 = b[4::8]
-    coluna6 = b[5::8]
-    coluna7 = b[6::8]
-    coluna8 = b[7::8]
+    #coluna1 = b[0::8]
+    #coluna2 = b[1::8]
+    #coluna3 = b[2::8]
+    #coluna4 = b[3::8]
+    #coluna5 = b[4::8]
+    #coluna6 = b[5::8]
+    #coluna7 = b[6::8]
+    #coluna8 = b[7::8]
 
     q = []
     output = []
     x = 0
 
-    while x < len(coluna1):
+    while x < len(b[0::8]):
         t = f"""
             <tr>
             <th>{x+1}</th> 
-            <td>{coluna1[x]}</td> 
-            <td>{coluna2[x]}</td> 
-            <td>{coluna3[x]}</td> 
-            <td>{coluna4[x]}</td> 
-            <td>{coluna5[x]}</td> 
-            <td>{coluna6[x]}</td> 
-            <td>{coluna7[x]}</td> 
-            <td>{coluna8[x]}</td>
+            <td>{b[0::8][x]}</td> 
+            <td>{b[1::8][x]}</td> 
+            <td>{b[2::8][x]}</td> 
+            <td>{b[3::8][x]}</td> 
+            <td>{b[4::8][x]}</td> 
+            <td>{b[5::8][x]}</td> 
+            <td>{b[6::8][x]}</td> 
+            <td>{b[7::8][x]}</td>
             </tr>
             """
         q.append(t)
