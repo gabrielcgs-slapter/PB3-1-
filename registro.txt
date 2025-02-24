@@ -1,0 +1,22 @@
+2025-02-17 13:02:58.421725 - O programa comecou a rodar. 
+17/02/2025 13:02:58 - O email foi enviado com sucesso. 77 estudos atualizados. Demorou: 0:34:37.829107 minutos 
+2025-02-17 14:24:30.640567 - O programa comecou a rodar. 
+17/02/2025 14:24:30 - O email nao precisou ser enviado. 0 estudos atualizados. Demorou: 0:32:52.414450 minutos 
+2025-02-17 15:03:55.218695 - O programa comecou a rodar. 
+17/02/2025 15:03:55 - O email nao precisou ser enviado. 0 estudos atualizados. Demorou: 0:30:50.567445 minutos 
+
+
+2025-02-18 05:05:48.887645 - O programa comecou a rodar. 
+18/02/2025 05:05:48 - O email foi enviado com sucesso. 77 estudos atualizados. Demorou: 0:31:35.092597 minutos
+
+2025-02-18 18:42:14.435997 - O programa comecou a rodar. 
+18/02/2025 18:42:14 - O email foi enviado com sucesso. 2 estudos atualizados. Demorou: 0:31:25.349657 minutos
+
+2025-02-19 00:29:57.469200 - O programa comecou a rodar. 
+19/02/2025 00:29:57 - O email foi enviado com sucesso. 3 estudos atualizados. Demorou: 0:34:31.534328 minutos
+
+2025-02-19 13:02:57.693721 - O programa comecou a rodar. 
+19/02/2025 13:02:57 - O email nao precisou ser enviado. 0 estudos atualizados. Demorou: 0:31:33.690826 minutos
+
+2025-02-21 09:44:07.816937 - O programa comecou a rodar. 
+21/02/2025 09:44:07 - O email foi enviado com sucesso. 77 estudos atualizados. Demorou: 0:40:42.881550 minutos
