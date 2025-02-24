@@ -36,7 +36,7 @@ options.add_argument("--blink-settings=imagesEnabled=false")  # Desativa imagens
 options.add_argument("--disable-extensions")  # Desativa extensões
 options.add_argument("--disable-popup-blocking")  # Evita bloqueios de pop-up
 options.add_argument("--disable-infobars")  # Remove barra de informações do Chrome
-options.add_argument("--headless")  # Modo headless (opcional)
+#options.add_argument("--headless")  # Modo headless (opcional)
 service = Service(ChromeDriverManager().install())
 
 data_hora0 = datetime.datetime.now()
@@ -69,6 +69,7 @@ while True:
         
     try:
         valid_login = driver.find_element(By.XPATH,"/html/body/div[2]/div/div[4]/div").text
+        print(valid_login)
         if "sessão" in valid_login:
             break
     except:
@@ -77,19 +78,8 @@ while True:
 print("Login realizado com sucesso")
 
 time.sleep(10)
-soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-paginas0 = soup.find("table",class_="rich-dtascroller-table").text[24:26]
-print(paginas0)
-
-paginas = int((int(paginas0)-1)/10)
-print(paginas)
-
-#wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[2]/div/div[6]/div[1]/form/div[3]/div[2]/table/tfoot/tr/td/div/table/tbody/tr/td[1]"))).click()
-
-print("Projetos: "+str(paginas0))
-
-CAAE = []
+list_CAAE = []
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 paginas0 = soup.find("table",class_="rich-dtascroller-table").text
 paginas0 = re.search((r'de (.*?) registro\(s\)'), paginas0).group(1)
@@ -99,11 +89,11 @@ for i in range(paginas+1):
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     
     try:
-        time.sleep(5)
+        time.sleep(10)
         wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[3]/div[2]/table/tfoot/tr/td/div/table/tbody/tr/td[6]'))).click() #clicar no >>
     except:
         pass
-
+    
     a = []
     aa = soup.find_all("label")
 
@@ -112,13 +102,14 @@ for i in range(paginas+1):
     
     for item in a:
         if '5262' in item:
-            CAAE.append(item)
+            list_CAAE.append(item)
             #print(item)
 
-CAAE = set(CAAE)
-CAAE = list(CAAE)
+list_CAAE = set(list_CAAE)
+list_CAAE = list(list_CAAE)
+print(f"CAAEs válidos extraídos: {len(list_CAAE)}")
 
-print(f"CAAEs válidos extraídos: {len(CAAE)}")
+CAAE = list_CAAE
 
 df_email = []
 df_CAAE = []
@@ -248,7 +239,7 @@ for i in CAAE:
 
     #Contador
     count = count + 1
-    con = f'Progresso: {count}/{len(CAAE3)} Duração: {str(t)[2:9]}'
+    con = f'Progresso: {count}/{len(CAAE)} Duração: {str(t)[2:9]}'
     print(con)
 print("Trãmites extraidos")
 driver.close()
