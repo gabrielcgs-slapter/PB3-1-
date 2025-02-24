@@ -44,7 +44,7 @@ data_hora00 = str(data_hora0)
 print(f"Hora de início: {str(data_hora0)[0:16]}")
 
 driver = webdriver.Chrome(service=service, options=options)
-wait = WebDriverWait(driver, 60)
+wait = WebDriverWait(driver, 180)
 driver.get("https://plataformabrasil.saude.gov.br/login.jsf")
 driver.maximize_window()
 
