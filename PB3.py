@@ -76,11 +76,16 @@ while True:
 
 print("Login realizado com sucesso")
 
-time.sleep(5)
+time.sleep(10)
 soup = BeautifulSoup(driver.page_source, 'html.parser')
+
 paginas0 = soup.find("table",class_="rich-dtascroller-table").text[24:26]
+print(paginas0)
+
 paginas = int((int(paginas0)-1)/10)
-wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[2]/div/div[6]/div[1]/form/div[3]/div[2]/table/tfoot/tr/td/div/table/tbody/tr/td[1]"))).click()
+print(paginas)
+
+#wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[2]/div/div[6]/div[1]/form/div[3]/div[2]/table/tfoot/tr/td/div/table/tbody/tr/td[1]"))).click()
 
 print("Projetos: "+str(paginas0))
 
