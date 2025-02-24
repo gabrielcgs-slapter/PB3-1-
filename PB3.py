@@ -16,6 +16,7 @@ import pytz
 import smtplib
 import email.message
 import psutil
+import re
 
 # Encerra processos do Chrome e do Chromedriver
 for proc in psutil.process_iter(attrs=["pid", "name"]):
@@ -47,36 +48,33 @@ wait = WebDriverWait(driver, 20)
 driver.get("https://plataformabrasil.saude.gov.br/login.jsf")
 driver.maximize_window()
 
-time.sleep(10)
 print("Abrindo Plataforma Brasil")
-#titulo = driver.find_element(By.XPATH,'//*[@id="j_id27:esqueceuSenha"]').text
-
-wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[2]/div/div[3]/div/div/form[2]/div/a[1]")))
-
-driver.find_element(By.XPATH,'//*[@id="j_id19:email"]').clear() # email
-driver.find_element(By.XPATH,'//*[@id="j_id19:email"]').send_keys('gabrielcgs12@gmail.com') # email
-driver.find_element(By.XPATH,'//*[@id="j_id19:senha"]').clear() # senha
-driver.find_element(By.XPATH,'//*[@id="j_id19:senha"]').send_keys('0Dije!c!') # senha
-    
-driver.find_element(By.XPATH, '//*[@id="j_id19"]/input[4]').click() # logar
 time.sleep(10)
 
-try:
-    wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[2]/div/div[3]/div/div/form[2]/div/a[1]"))).click()
-except:
-    pass
+while True:
+    wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div/div/form[1]/input[4]')))
+    driver.find_element(By.XPATH,'//*[@id="j_id19:email"]').clear() # email
+    driver.find_element(By.XPATH,'//*[@id="j_id19:email"]').send_keys(EMAIL_USER) # email
+    driver.find_element(By.XPATH,'//*[@id="j_id19:senha"]').clear() # senha
+    driver.find_element(By.XPATH,'//*[@id="j_id19:senha"]').send_keys(EMAIL_PASS) # senha
+
+    driver.find_element(By.XPATH, '//*[@id="j_id19"]/input[4]').click() # logar"
+    time.sleep(2)
+    
+    try:   
+        driver.find_element(By.XPATH, 
+                            '//*[@id="formModalMsgUsuarioLogado:idBotaoInvalidarUsuarioLogado"]').click()
+    except:
+        pass 
+        
+    try:
+        valid_login = driver.find_element(By.XPATH,"/html/body/div[2]/div/div[4]/div").text
+        if "sessão" in valid_login:
+            break
+    except:
+        continue
 
 print("Login realizado com sucesso")
-
-
-### testeeee #### %%
-driver.find_element(By.XPATH,'/html/body/div[9]/div[2]/div/div[2]/table/tbody/tr/td/form/div/div[3]/table[1]/tbody/tr[1]/td').text
-
-
-wait.until(EC.element_to_be_clickable((By.XPATH, "gerirPesquisaForm:idSituacoes:11:idItem"))).click()
-wait.until(EC.element_to_be_clickable((By.XPATH, "gerirPesquisaForm:idSituacoes:14:idItem"))).click()
-wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="gerirPesquisaForm:idBtnBuscarProjPesquisa"]'))).click()
-print("estudos filtrados")
 
 time.sleep(5)
 soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -86,12 +84,20 @@ wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[2]/div/div[6]/d
 
 print("Projetos: "+str(paginas0))
 
-CAAE1 = []
-print("Extraindo CAAEs válidos")
+CAAE = []
+soup = BeautifulSoup(driver.page_source, 'html.parser')
+paginas0 = soup.find("table",class_="rich-dtascroller-table").text
+paginas0 = re.search((r'de (.*?) registro\(s\)'), paginas0).group(1)
+paginas = int((int(paginas0)-1)/10)
+
 for i in range(paginas+1):
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    time.sleep(5)
-    wait.until(EC.element_to_be_clickable((By.XPATH, '/html/body/div[2]/div/div[6]/div[1]/form/div[3]/div[2]/table/tfoot/tr/td/div/table/tbody/tr/td[6]'))).click()
+    
+    try:
+        time.sleep(5)
+        wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[3]/div[2]/table/tfoot/tr/td/div/table/tbody/tr/td[6]'))).click() #clicar no >>
+    except:
+        pass
 
     a = []
     aa = soup.find_all("label")
@@ -101,25 +107,14 @@ for i in range(paginas+1):
     
     for item in a:
         if '5262' in item:
-            CAAE1.append(item)
-    
-    time.sleep(5)
+            CAAE.append(item)
+            #print(item)
 
-def lista_simples(lista):
-    if isinstance(lista, list):
-        return [sub_elem for elem in lista for sub_elem in lista_simples(elem)]
-    else:
-        return [lista]
+CAAE = set(CAAE)
+CAAE = list(CAAE)
 
-CAAE2 = lista_simples(CAAE1)
-    
-CAAE3 = []
-for item in CAAE2:
-  if item != "":
-    CAAE3.append(item)
-
-CAAE = set(CAAE3)
 print(f"CAAEs válidos extraídos: {len(CAAE)}")
+
 df_email = []
 df_CAAE = []
 count = 0
