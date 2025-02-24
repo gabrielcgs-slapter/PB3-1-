@@ -61,7 +61,10 @@ driver.find_element(By.XPATH,'//*[@id="j_id19:senha"]').send_keys('0Dije!c!') # 
 driver.find_element(By.XPATH, '//*[@id="j_id19"]/input[4]').click() # logar
 time.sleep(10)
 
-wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[2]/div/div[3]/div/div/form[2]/div/a[1]"))).click()
+try:
+    wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[2]/div/div[3]/div/div/form[2]/div/a[1]"))).click()
+except:
+    pass
 
 print("Login realizado com sucesso")
 
