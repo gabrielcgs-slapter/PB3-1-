@@ -44,7 +44,7 @@ data_hora00 = str(data_hora0)
 print(f"Hora de início: {str(data_hora0)[0:16]}")
 
 driver = webdriver.Chrome(service=service, options=options)
-wait = WebDriverWait(driver, 20)
+wait = WebDriverWait(driver, 30)
 driver.get("https://plataformabrasil.saude.gov.br/login.jsf")
 driver.maximize_window()
 
@@ -148,7 +148,7 @@ for i in CAAE:
                             '/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').send_keys(i) #escrever CAAE
         driver.find_element(By.XPATH, 
                             '/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').send_keys('\ue006') #clicar para pesquisar
-        time.sleep(10)
+        wait.until(EC.presence_of_element_located((By.XPATH,"/html/body/div[3]/div/div[6]/div[1]/form/div[2]/div[1]")))
         pag_estudo = driver.page_source
         soup = BeautifulSoup(pag_estudo, 'html.parser')
     
