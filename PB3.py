@@ -54,9 +54,9 @@ time.sleep(10)
 while True:
     wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div/div/form[1]/input[4]')))
     driver.find_element(By.XPATH,'//*[@id="j_id19:email"]').clear() # email
-    driver.find_element(By.XPATH,'//*[@id="j_id19:email"]').send_keys(EMAIL_USER) # email
+    driver.find_element(By.XPATH,'//*[@id="j_id19:email"]').send_keys("gabrielcgs12@gmail.com") # email
     driver.find_element(By.XPATH,'//*[@id="j_id19:senha"]').clear() # senha
-    driver.find_element(By.XPATH,'//*[@id="j_id19:senha"]').send_keys(EMAIL_PASS) # senha
+    driver.find_element(By.XPATH,'//*[@id="j_id19:senha"]').send_keys("0Dije!c!") # senha
 
     driver.find_element(By.XPATH, '//*[@id="j_id19"]/input[4]').click() # logar"
     time.sleep(2)
