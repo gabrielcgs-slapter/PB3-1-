@@ -1,4 +1,4 @@
-tname: Run PB3 Script
+name: Run PB3 Script
 
 on:
   push:
