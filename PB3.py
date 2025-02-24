@@ -36,7 +36,7 @@ options.add_argument("--blink-settings=imagesEnabled=false")  # Desativa imagens
 options.add_argument("--disable-extensions")  # Desativa extensões
 options.add_argument("--disable-popup-blocking")  # Evita bloqueios de pop-up
 options.add_argument("--disable-infobars")  # Remove barra de informações do Chrome
-#options.add_argument("--headless")  # Modo headless (opcional)
+options.add_argument("--headless")  # Modo headless (opcional)
 service = Service(ChromeDriverManager().install())
 
 data_hora0 = datetime.datetime.now()
