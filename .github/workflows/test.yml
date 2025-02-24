@@ -1,9 +1,9 @@
-name: Run PB3 Script
+tname: Run PB3 Script
 
 on:
-  #push:
-    #branches:
-      #- main
+  push:
+    branches:
+      - main
   #schedule:
     #- cron: '0 8 * * *'  # Executa diariamente às 08:00 UTC
   workflow_dispatch:

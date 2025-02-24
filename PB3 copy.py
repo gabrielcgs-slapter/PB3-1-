@@ -68,11 +68,6 @@ except:
 
 print("Login realizado com sucesso")
 
-
-### testeeee #### %%
-driver.find_element(By.XPATH,'/html/body/div[9]/div[2]/div/div[2]/table/tbody/tr/td/form/div/div[3]/table[1]/tbody/tr[1]/td').text
-
-
 wait.until(EC.element_to_be_clickable((By.XPATH, "gerirPesquisaForm:idSituacoes:11:idItem"))).click()
 wait.until(EC.element_to_be_clickable((By.XPATH, "gerirPesquisaForm:idSituacoes:14:idItem"))).click()
 wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="gerirPesquisaForm:idBtnBuscarProjPesquisa"]'))).click()
