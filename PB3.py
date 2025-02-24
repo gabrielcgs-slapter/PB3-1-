@@ -125,7 +125,7 @@ for i in CAAE:
     while o < 10:
         try:
             # Clicar na lupa
-            driver.find_element(By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[3]/div[2]/table/tbody/tr/td[10]/a/img').click() #clicar na lupa
+            wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[3]/div[2]/table/tbody/tr/td[10]/a/img'))).click() #clicar na lupa
             break
         except:
             # Esperar 1 segundo antes de tentar novamente
@@ -139,8 +139,7 @@ for i in CAAE:
     #confirmar o estudo na tela
     confirmar = soup.find_all("td")[15].text.replace("\n", "").replace("CAAE: ","")
     if confirmar != i:
-        driver.find_element(By.XPATH, 
-                            '/html/body/div[2]/div/div[3]/div[2]/form/a[2]').click() #voltar ao menu
+        wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() #voltar ao menu
         time.sleep(5)
         driver.find_element(By.XPATH, 
                             '/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').clear() #apagar
@@ -148,12 +147,11 @@ for i in CAAE:
                             '/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').send_keys(i) #escrever CAAE
         driver.find_element(By.XPATH, 
                             '/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').send_keys('\ue006') #clicar para pesquisar
-        wait.until(EC.presence_of_element_located((By.XPATH,"/html/body/div[3]/div/div[6]/div[1]/form/div[2]/div[1]")))
+        wait.until(EC.visibility_of_element_located((By.XPATH,"/html/body/div[3]/div/div[6]/div[1]/form/div[2]/div[1]")))
         pag_estudo = driver.page_source
         soup = BeautifulSoup(pag_estudo, 'html.parser')
     
-    driver.find_element(By.XPATH, 
-                    '/html/body/div[2]/div/div[3]/div[2]/form/a[2]').click() #voltar ao menu
+    wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() #voltar ao menu
     
     #extrai o nome do estudo
     nome_estudo = soup.find('td', class_="text-top").text[21:].replace('"',"")
