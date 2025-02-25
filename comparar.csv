@@ -1,1 +1,286 @@
 CAAE,email_x,email_y
+32449420.4.1001.5262,"
+                    <p><b>Rede Colaborativa para Geração de Evidência Científica em COVID-19 para o Sistema Único de Saúde no Brasil - RECOVER SUS-BRASIL</b></p> 
+                    <p>CAAE: 32449420.4.1001.5262</p> 
+                    <p>Pesquisador Responsável: Beatriz Grinsztejn</p> 
+                    
+                    <table border=""1"" class=""dataframe"" style=""text-align: center""> 
+                    <thead><tr> 
+                    <th></th> 
+                    <th>Apreciação</th> 
+                    <th>Data/Hora</th> 
+                    <th>Tipo Trâmite</th> 
+                    <th>Versão</th> 
+                    <th>Perfil</th> 
+                    <th>Origem</th> 
+                    <th>Destino</th> 
+                    <th>Informações</th> 
+                    </tr></thead> 
+                    <tbody>
+            <tr>
+            <th>1</th> 
+            <td>E16</td> 
+            <td>25/02/2025 16:44:36</td> 
+            <td>Submetido para avaliação do CEP</td> 
+            <td>21</td> 
+            <td>Assistente da Pesquisa</td> 
+            <td>PESQUISADOR</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>2</th> 
+            <td>E15</td> 
+            <td>07/06/2024 15:53:16</td> 
+            <td>Parecer liberado</td> 
+            <td>20</td> 
+            <td>Coordenador</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>PESQUISADOR</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>3</th> 
+            <td>E15</td> 
+            <td>07/06/2024 14:29:09</td> 
+            <td>Parecer do colegiado emitido</td> 
+            <td>20</td> 
+            <td>Membro do CEP</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>4</th> 
+            <td>E15</td> 
+            <td>03/06/2024 11:06:21</td> 
+            <td>Parecer do relator emitido</td> 
+            <td>20</td> 
+            <td>Membro do CEP</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>5</th> 
+            <td>E15</td> 
+            <td>03/06/2024 00:21:09</td> 
+            <td>Aceitação de Elaboração de Relatoria</td> 
+            <td>20</td> 
+            <td>Membro do CEP</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>6</th> 
+            <td>E15</td> 
+            <td>29/05/2024 09:11:42</td> 
+            <td>Confirmação de Indicação de Relatoria</td> 
+            <td>20</td> 
+            <td>Coordenador</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>7</th> 
+            <td>E15</td> 
+            <td>27/05/2024 08:46:53</td> 
+            <td>Indicação de Relatoria</td> 
+            <td>20</td> 
+            <td>Secretária</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>8</th> 
+            <td>E15</td> 
+            <td>27/05/2024 08:42:23</td> 
+            <td>Aceitação do PP</td> 
+            <td>20</td> 
+            <td>Secretária</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>9</th> 
+            <td>E15</td> 
+            <td>23/05/2024 10:58:52</td> 
+            <td>Submetido para avaliação do CEP</td> 
+            <td>20</td> 
+            <td>Assistente da Pesquisa</td> 
+            <td>PESQUISADOR</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>10</th> 
+            <td>E15</td> 
+            <td>16/05/2024 10:00:41</td> 
+            <td>Rejeição do PP</td> 
+            <td>20</td> 
+            <td>Secretária</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>PESQUISADOR</td> 
+            <td>Prezada,
+
+Solicitamos ajuste na justificativa da E</td>
+            </tr>
+            </tbody> 
+                    </table>
+                    
+                    ","
+                    <p><b>Rede Colaborativa para Geração de Evidência Científica em COVID-19 para o Sistema Único de Saúde no Brasil - RECOVER SUS-BRASIL</b></p> 
+                    <p>CAAE: 32449420.4.1001.5262</p> 
+                    <p>Pesquisador Responsável: Beatriz Grinsztejn</p> 
+                    
+                    <table border=""1"" class=""dataframe"" style=""text-align: center""> 
+                    <thead><tr> 
+                    <th></th> 
+                    <th>Apreciação</th> 
+                    <th>Data/Hora</th> 
+                    <th>Tipo Trâmite</th> 
+                    <th>Versão</th> 
+                    <th>Perfil</th> 
+                    <th>Origem</th> 
+                    <th>Destino</th> 
+                    <th>Informações</th> 
+                    </tr></thead> 
+                    <tbody>
+            <tr>
+            <th>1</th> 
+            <td>E15</td> 
+            <td>07/06/2024 15:53:16</td> 
+            <td>Parecer liberado</td> 
+            <td>20</td> 
+            <td>Coordenador</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>PESQUISADOR</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>2</th> 
+            <td>E15</td> 
+            <td>07/06/2024 14:29:09</td> 
+            <td>Parecer do colegiado emitido</td> 
+            <td>20</td> 
+            <td>Membro do CEP</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>3</th> 
+            <td>E15</td> 
+            <td>03/06/2024 11:06:21</td> 
+            <td>Parecer do relator emitido</td> 
+            <td>20</td> 
+            <td>Membro do CEP</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>4</th> 
+            <td>E15</td> 
+            <td>03/06/2024 00:21:09</td> 
+            <td>Aceitação de Elaboração de Relatoria</td> 
+            <td>20</td> 
+            <td>Membro do CEP</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>5</th> 
+            <td>E15</td> 
+            <td>29/05/2024 09:11:42</td> 
+            <td>Confirmação de Indicação de Relatoria</td> 
+            <td>20</td> 
+            <td>Coordenador</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>6</th> 
+            <td>E15</td> 
+            <td>27/05/2024 08:46:53</td> 
+            <td>Indicação de Relatoria</td> 
+            <td>20</td> 
+            <td>Secretária</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>7</th> 
+            <td>E15</td> 
+            <td>27/05/2024 08:42:23</td> 
+            <td>Aceitação do PP</td> 
+            <td>20</td> 
+            <td>Secretária</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>8</th> 
+            <td>E15</td> 
+            <td>23/05/2024 10:58:52</td> 
+            <td>Submetido para avaliação do CEP</td> 
+            <td>20</td> 
+            <td>Assistente da Pesquisa</td> 
+            <td>PESQUISADOR</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>9</th> 
+            <td>E15</td> 
+            <td>16/05/2024 10:00:41</td> 
+            <td>Rejeição do PP</td> 
+            <td>20</td> 
+            <td>Secretária</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>PESQUISADOR</td> 
+            <td>Prezada,
+
+Solicitamos ajuste na justificativa da E</td>
+            </tr>
+            
+            <tr>
+            <th>10</th> 
+            <td>E15</td> 
+            <td>15/05/2024 14:41:44</td> 
+            <td>Submetido para avaliação do CEP</td> 
+            <td>20</td> 
+            <td>Assistente da Pesquisa</td> 
+            <td>PESQUISADOR</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            </tbody> 
+                    </table>
+                    
+                    "
