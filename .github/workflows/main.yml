@@ -10,8 +10,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-script:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Adiciona permissão de escrita
 
     steps:
       - name: Checkout do repositório
