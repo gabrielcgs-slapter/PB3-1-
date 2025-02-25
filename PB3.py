@@ -18,17 +18,18 @@ import email.message
 import psutil
 import re
 
-# Encerra processos do Chrome e do Chromedriver
 for proc in psutil.process_iter(attrs=["pid", "name"]):
-    if "chromedriver" in proc.info["name"] or "chrome" in proc.info["name"]:
+    if proc.info["name"] in ["chromedriver", "chrome"]:
         try:
-            os.kill(proc.info["pid"], 9)  # Força o encerramento do processo
+            proc.kill()
             print(f"Processo encerrado: {proc.info['name']} (PID {proc.info['pid']})")
+        except psutil.NoSuchProcess:
+            print(f"Processo {proc.info['name']} (PID {proc.info['pid']}) não encontrado.")
         except Exception as e:
             print(f"Erro ao encerrar processo: {e}")
+
             
 options = Options()
-options.add_experimental_option("detach", True)  
 options.add_argument("--disable-gpu")  # Desativa GPU para melhorar desempenho
 options.add_argument("--no-sandbox")  # Evita problemas de permissão
 options.add_argument("--disable-dev-shm-usage")  # Melhora estabilidade
@@ -232,17 +233,14 @@ driver.close()
 hoje = pd.DataFrame(zip(df_CAAE, df_email), columns=['CAAE', "email"])
 hoje = hoje.sort_values(by=['CAAE'])
 
-# Deletar "ontem3"
-os.remove("ontem3.csv")
-
 # Substituir "ontem2"
-os.rename("ontem2.csv", "ontem3.csv")
+os.replace("ontem2.csv", "ontem3.csv")
 
 # Substituir "ontem1"
-os.rename("ontem1.csv", "ontem2.csv")
+os.replace("ontem1.csv", "ontem2.csv")
 
 # Substituir "Hoje"
-os.rename("hoje.csv", "ontem1.csv")
+os.replace("hoje.csv", "ontem1.csv")
 
 # Criar o CSV para salvar para comparar 
 hoje.to_csv("hoje.csv", index=False)
@@ -255,8 +253,7 @@ comparar = comparar[comparar["email_x"] != comparar["email_y"]]
 #print(comparar)
 
 # Salva o df comparar em csv
-os.remove("comparar.csv")
-comparar.to_csv("comparar.csv")
+comparar.to_csv("comparar.csv", index=False)
 
 # Monta lista com os email
 corpo_do_email = comparar['email_x'].tolist()
