@@ -252,7 +252,7 @@ ontem = pd.read_csv("ontem1.csv")
 
 comparar = pd.merge(hoje, ontem, on='CAAE')
 comparar = comparar[comparar["email_x"] != comparar["email_y"]]
-print(comparar)
+#print(comparar)
 
 # Salva o df comparar em csv
 os.remove("comparar.csv")
