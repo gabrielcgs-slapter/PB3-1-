@@ -18,6 +18,10 @@ import email.message
 import psutil
 import re
 
+#destinatário = 'gabriel.calazans@ini.fiocruz.br'
+destinatário = 'regulatorios@ini.fiocruz.br'
+
+
 for proc in psutil.process_iter(attrs=["pid", "name"]):
     if proc.info["name"] in ["chromedriver", "chrome"]:
         try:
@@ -265,8 +269,7 @@ vezes = len(corpo_do_email)
 data = datetime.date.today().strftime('%d/%m/%Y')
 data_hora = datetime.datetime.now() 
 data_hora = data_hora.strftime("%d/%m/%Y %H:%M:%S")
-destinatário = 'gabriel.calazans@ini.fiocruz.br'
-#destinatário = 'regulatorios@ini.fiocruz.br'
+
 print("configurando email")
 timezone = pytz.timezone('Etc/GMT-3')
 
