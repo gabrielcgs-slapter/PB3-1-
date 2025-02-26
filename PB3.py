@@ -21,7 +21,7 @@ import re
 #destinatário = 'gabriel.calazans@ini.fiocruz.br'
 destinatário = 'regulatorios@ini.fiocruz.br'
 
-timezone = pytz.timezone('Etc/GMT-3')
+timezone = pytz.timezone('Etc/GMT+3')
 
 for proc in psutil.process_iter(attrs=["pid", "name"]):
     if proc.info["name"] in ["chromedriver", "chrome"]:
