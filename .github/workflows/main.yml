@@ -1,16 +1,19 @@
-name: Run PB3 Script
+name: Run PB3
 
 on:
-  push:
-    branches:
-      - main
-  #schedule:
-    #- cron: '0 8 * * *'  # Executa diariamente às 08:00 UTC
+  #push:
+   # branches:
+    #  - main
+  schedule:
+    - cron: '0 11 * * 1-5'  # Executa seg-sex às 08:00
+    - cron: '0 15 * * 1-5'  # Executa seg-sex às 12:00
   workflow_dispatch:
 
 jobs:
-  run-script:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Adiciona permissão de escrita
 
     steps:
       - name: Checkout do repositório

@@ -18,17 +18,23 @@ import email.message
 import psutil
 import re
 
-# Encerra processos do Chrome e do Chromedriver
+#destinatário = 'gabriel.calazans@ini.fiocruz.br'
+destinatário = 'regulatorios@ini.fiocruz.br'
+
+timezone = pytz.timezone('Etc/GMT+3')
+
 for proc in psutil.process_iter(attrs=["pid", "name"]):
-    if "chromedriver" in proc.info["name"] or "chrome" in proc.info["name"]:
+    if proc.info["name"] in ["chromedriver", "chrome"]:
         try:
-            os.kill(proc.info["pid"], 9)  # Força o encerramento do processo
+            proc.kill()
             print(f"Processo encerrado: {proc.info['name']} (PID {proc.info['pid']})")
+        except psutil.NoSuchProcess:
+            print(f"Processo {proc.info['name']} (PID {proc.info['pid']}) não encontrado.")
         except Exception as e:
             print(f"Erro ao encerrar processo: {e}")
+
             
 options = Options()
-options.add_experimental_option("detach", True)  
 options.add_argument("--disable-gpu")  # Desativa GPU para melhorar desempenho
 options.add_argument("--no-sandbox")  # Evita problemas de permissão
 options.add_argument("--disable-dev-shm-usage")  # Melhora estabilidade
@@ -39,7 +45,7 @@ options.add_argument("--disable-infobars")  # Remove barra de informações do C
 options.add_argument("--headless")  # Modo headless (opcional)
 service = Service(ChromeDriverManager().install())
 
-data_hora0 = datetime.datetime.now()
+data_hora0 = datetime.datetime.now(timezone)
 data_hora00 = str(data_hora0)
 print(f"Hora de início: {str(data_hora0)[0:16]}")
 
@@ -115,7 +121,7 @@ df_email = []
 df_CAAE = []
 count = 0
 for i in CAAE:
-    t1 = datetime.datetime.now()
+    t1 = datetime.datetime.now(timezone)
 
     driver.find_element(By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').clear() #apagar
     driver.find_element(By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').send_keys(i) #escrever CAAE
@@ -218,7 +224,7 @@ for i in CAAE:
     df_email.append(corpo_email)
     df_CAAE.append(CAAE_estudo)
     
-    t2 = datetime.datetime.now()
+    t2 = datetime.datetime.now(timezone)
     t = t2-t1
 
     #Contador
@@ -232,17 +238,14 @@ driver.close()
 hoje = pd.DataFrame(zip(df_CAAE, df_email), columns=['CAAE', "email"])
 hoje = hoje.sort_values(by=['CAAE'])
 
-# Deletar "ontem3"
-os.remove("ontem3.csv")
-
 # Substituir "ontem2"
-os.rename("ontem2.csv", "ontem3.csv")
+os.replace("ontem2.csv", "ontem3.csv")
 
 # Substituir "ontem1"
-os.rename("ontem1.csv", "ontem2.csv")
+os.replace("ontem1.csv", "ontem2.csv")
 
 # Substituir "Hoje"
-os.rename("hoje.csv", "ontem1.csv")
+os.replace("hoje.csv", "ontem1.csv")
 
 # Criar o CSV para salvar para comparar 
 hoje.to_csv("hoje.csv", index=False)
@@ -252,11 +255,10 @@ ontem = pd.read_csv("ontem1.csv")
 
 comparar = pd.merge(hoje, ontem, on='CAAE')
 comparar = comparar[comparar["email_x"] != comparar["email_y"]]
-print(comparar)
+#print(comparar)
 
 # Salva o df comparar em csv
-os.remove("comparar.csv")
-comparar.to_csv("comparar.csv")
+comparar.to_csv("comparar.csv", index=False)
 
 # Monta lista com os email
 corpo_do_email = comparar['email_x'].tolist()
@@ -266,16 +268,15 @@ vezes = len(corpo_do_email)
 
 # Config do email
 data = datetime.date.today().strftime('%d/%m/%Y')
-data_hora = datetime.datetime.now() 
+data_hora = datetime.datetime.now(timezone) 
 data_hora = data_hora.strftime("%d/%m/%Y %H:%M:%S")
-destinatário = 'gabriel.calazans@ini.fiocruz.br'
-#destinatário = 'regulatorios@ini.fiocruz.br'
+
 print("configurando email")
-timezone = pytz.timezone('Etc/GMT-3')
+
 
 def enviar_email():
     
-    data_hora1 = datetime.datetime.now()
+    data_hora1 = datetime.datetime.now(timezone)
     str_data_hora1 = data_hora1.strftime("%d/%m/%Y %H:%M:%S")
     tempo = (data_hora1 - data_hora0)
     
@@ -307,7 +308,7 @@ def enviar_email():
 
 # Enviar email e registrar o término do programa
 
-data_hora1 = datetime.datetime.now()
+data_hora1 = datetime.datetime.now(timezone)
 data_hora_str = data_hora1.strftime("%d/%m/%Y %H:%M:%S")
 tempo = (data_hora1 - data_hora0)
 tempo_str = str(tempo)
