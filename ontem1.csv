@@ -1429,6 +1429,18 @@ CAAE,email
                     <tbody>
             <tr>
             <th>1</th> 
+            <td>E16</td> 
+            <td>25/02/2025 16:44:36</td> 
+            <td>Submetido para avaliação do CEP</td> 
+            <td>21</td> 
+            <td>Assistente da Pesquisa</td> 
+            <td>PESQUISADOR</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>2</th> 
             <td>E15</td> 
             <td>07/06/2024 15:53:16</td> 
             <td>Parecer liberado</td> 
@@ -1440,7 +1452,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>2</th> 
+            <th>3</th> 
             <td>E15</td> 
             <td>07/06/2024 14:29:09</td> 
             <td>Parecer do colegiado emitido</td> 
@@ -1452,7 +1464,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>3</th> 
+            <th>4</th> 
             <td>E15</td> 
             <td>03/06/2024 11:06:21</td> 
             <td>Parecer do relator emitido</td> 
@@ -1464,7 +1476,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>4</th> 
+            <th>5</th> 
             <td>E15</td> 
             <td>03/06/2024 00:21:09</td> 
             <td>Aceitação de Elaboração de Relatoria</td> 
@@ -1476,7 +1488,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>5</th> 
+            <th>6</th> 
             <td>E15</td> 
             <td>29/05/2024 09:11:42</td> 
             <td>Confirmação de Indicação de Relatoria</td> 
@@ -1488,7 +1500,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>6</th> 
+            <th>7</th> 
             <td>E15</td> 
             <td>27/05/2024 08:46:53</td> 
             <td>Indicação de Relatoria</td> 
@@ -1500,7 +1512,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>7</th> 
+            <th>8</th> 
             <td>E15</td> 
             <td>27/05/2024 08:42:23</td> 
             <td>Aceitação do PP</td> 
@@ -1512,7 +1524,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>8</th> 
+            <th>9</th> 
             <td>E15</td> 
             <td>23/05/2024 10:58:52</td> 
             <td>Submetido para avaliação do CEP</td> 
@@ -1524,7 +1536,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>9</th> 
+            <th>10</th> 
             <td>E15</td> 
             <td>16/05/2024 10:00:41</td> 
             <td>Rejeição do PP</td> 
@@ -1535,18 +1547,6 @@ CAAE,email
             <td>Prezada,
 
 Solicitamos ajuste na justificativa da E</td>
-            </tr>
-            
-            <tr>
-            <th>10</th> 
-            <td>E15</td> 
-            <td>15/05/2024 14:41:44</td> 
-            <td>Submetido para avaliação do CEP</td> 
-            <td>20</td> 
-            <td>Assistente da Pesquisa</td> 
-            <td>PESQUISADOR</td> 
-            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-            <td></td>
             </tr>
             </tbody> 
                     </table>
