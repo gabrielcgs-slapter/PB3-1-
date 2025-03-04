@@ -10169,6 +10169,18 @@ ACTG A5360 (MINMON)</b></p>
             <tr>
             <th>1</th> 
             <td>PO</td> 
+            <td>03/03/2025 11:16:40</td> 
+            <td>Confirmação de Indicação de Relatoria</td> 
+            <td>2</td> 
+            <td>Coordenador</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>2</th> 
+            <td>PO</td> 
             <td>28/02/2025 15:55:00</td> 
             <td>Indicação de Relatoria</td> 
             <td>2</td> 
@@ -10179,7 +10191,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>2</th> 
+            <th>3</th> 
             <td>PO</td> 
             <td>28/02/2025 15:54:14</td> 
             <td>Aceitação do PP</td> 
@@ -10191,7 +10203,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>3</th> 
+            <th>4</th> 
             <td>PO</td> 
             <td>27/02/2025 17:01:18</td> 
             <td>Submetido para avaliação do CEP</td> 
@@ -10203,7 +10215,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>4</th> 
+            <th>5</th> 
             <td>PO</td> 
             <td>24/02/2025 17:19:21</td> 
             <td>Parecer liberado</td> 
@@ -10215,7 +10227,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>5</th> 
+            <th>6</th> 
             <td>PO</td> 
             <td>24/02/2025 17:17:42</td> 
             <td>Parecer do Colegiado Editado</td> 
@@ -10227,7 +10239,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>6</th> 
+            <th>7</th> 
             <td>PO</td> 
             <td>24/02/2025 15:52:40</td> 
             <td>Parecer do colegiado emitido</td> 
@@ -10239,7 +10251,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>7</th> 
+            <th>8</th> 
             <td>PO</td> 
             <td>23/02/2025 23:51:18</td> 
             <td>Parecer do relator emitido</td> 
@@ -10251,7 +10263,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>8</th> 
+            <th>9</th> 
             <td>PO</td> 
             <td>23/02/2025 23:48:10</td> 
             <td>Aceitação de Elaboração de Relatoria</td> 
@@ -10263,24 +10275,12 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>9</th> 
+            <th>10</th> 
             <td>PO</td> 
             <td>13/02/2025 17:46:53</td> 
             <td>Confirmação de Indicação de Relatoria</td> 
             <td>1</td> 
             <td>Coordenador</td> 
-            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-            <td></td>
-            </tr>
-            
-            <tr>
-            <th>10</th> 
-            <td>PO</td> 
-            <td>12/02/2025 15:08:03</td> 
-            <td>Indicação de Relatoria</td> 
-            <td>1</td> 
-            <td>Secretária</td> 
             <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
             <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
             <td></td>
