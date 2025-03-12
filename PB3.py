@@ -18,8 +18,9 @@ import email.message
 import psutil
 import re
 
-#destinatário = 'gabriel.calazans@ini.fiocruz.br'
-destinatário = 'regulatorios@ini.fiocruz.br'
+destinatário = 'gabriel.calazans@ini.fiocruz.br'
+#destinatário = 'regulatorios@ini.fiocruz.br'
+
 
 timezone = pytz.timezone('Etc/GMT+3')
 
@@ -60,9 +61,9 @@ time.sleep(10)
 while True:
     wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div/div/form[1]/input[4]')))
     driver.find_element(By.XPATH,'//*[@id="j_id19:email"]').clear() # email
-    driver.find_element(By.XPATH,'//*[@id="j_id19:email"]').send_keys("gabrielcgs12@gmail.com") # email
+    driver.find_element(By.XPATH,'//*[@id="j_id19:email"]').send_keys("tania.krstic@ipec.fiocruz.br") # email
     driver.find_element(By.XPATH,'//*[@id="j_id19:senha"]').clear() # senha
-    driver.find_element(By.XPATH,'//*[@id="j_id19:senha"]').send_keys("0Dije!c!") # senha
+    driver.find_element(By.XPATH,'//*[@id="j_id19:senha"]').send_keys("987654") # senha
 
     driver.find_element(By.XPATH, '//*[@id="j_id19"]/input[4]').click() # logar"
     time.sleep(2)
