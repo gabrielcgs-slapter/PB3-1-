@@ -21,6 +21,12 @@ import re
 #destinatário = 'gabriel.calazans@ini.fiocruz.br'
 destinatário = 'regulatorios@ini.fiocruz.br'
 
+# GABRIEL LOGIN
+login = "gabrielcgs12@gmail.com"; senha = "0Dije!c!"
+
+# TANIA LOGIN
+#login = "tania.krstic@ini.fiocruz.br"; senha = "987654"
+
 timezone = pytz.timezone('Etc/GMT+3')
 
 for proc in psutil.process_iter(attrs=["pid", "name"]):
