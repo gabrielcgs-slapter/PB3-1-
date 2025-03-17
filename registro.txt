@@ -90,3 +90,6 @@
 
 2025-03-14 09:43:19.382030-03:00 - O programa comecou a rodar. 
 14/03/2025 09:43:19 - O email foi enviado com sucesso. 167 estudos atualizados. Demorou: 0:28:12.680765 minutos
+
+2025-03-17 08:26:05.097713-03:00 - O programa comecou a rodar. 
+17/03/2025 08:26:05 - O email foi enviado com sucesso. 2 estudos atualizados. Demorou: 0:24:15.116080 minutos
