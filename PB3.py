@@ -18,8 +18,8 @@ import email.message
 import psutil
 import re
 
-#destinatário = 'gabriel.calazans@ini.fiocruz.br'
-destinatário = 'regulatorios@ini.fiocruz.br'
+destinatário = 'gabriel.calazans@ini.fiocruz.br'
+#destinatário = 'regulatorios@ini.fiocruz.br'
 
 # GABRIEL LOGIN
 login = "gabrielcgs12@gmail.com"; senha = "0Dije!c!"
@@ -56,7 +56,7 @@ data_hora00 = str(data_hora0)
 print(f"Hora de início: {str(data_hora0)[0:16]}")
 
 driver = webdriver.Chrome(service=service, options=options)
-wait = WebDriverWait(driver, 999)
+wait = WebDriverWait(driver, 300)
 driver.get("https://plataformabrasil.saude.gov.br/login.jsf")
 driver.maximize_window()
 
