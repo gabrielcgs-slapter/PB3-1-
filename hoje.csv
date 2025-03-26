@@ -1289,6 +1289,18 @@ CAAE,email
             <tr>
             <th>1</th> 
             <td>E5</td> 
+            <td>25/03/2025 14:06:54</td> 
+            <td>Aceitação de Elaboração de Relatoria</td> 
+            <td>8</td> 
+            <td>Membro do CEP</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>2</th> 
+            <td>E5</td> 
             <td>25/03/2025 07:45:31</td> 
             <td>Confirmação de Indicação de Relatoria</td> 
             <td>8</td> 
@@ -1299,7 +1311,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>2</th> 
+            <th>3</th> 
             <td>E5</td> 
             <td>24/03/2025 12:59:37</td> 
             <td>Indicação de Relatoria</td> 
@@ -1311,7 +1323,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>3</th> 
+            <th>4</th> 
             <td>N15</td> 
             <td>21/03/2025 12:11:25</td> 
             <td>Parecer liberado</td> 
@@ -1323,7 +1335,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>4</th> 
+            <th>5</th> 
             <td>N15</td> 
             <td>21/03/2025 11:01:36</td> 
             <td>Parecer do colegiado emitido</td> 
@@ -1335,7 +1347,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>5</th> 
+            <th>6</th> 
             <td>N15</td> 
             <td>21/03/2025 07:27:49</td> 
             <td>Parecer do relator emitido</td> 
@@ -1347,7 +1359,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>6</th> 
+            <th>7</th> 
             <td>N18</td> 
             <td>18/03/2025 14:25:56</td> 
             <td>Aceitação do PP</td> 
@@ -1359,7 +1371,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>7</th> 
+            <th>8</th> 
             <td>N18</td> 
             <td>18/03/2025 11:50:23</td> 
             <td>Notificação enviada</td> 
@@ -1371,7 +1383,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>8</th> 
+            <th>9</th> 
             <td>E5</td> 
             <td>18/03/2025 09:51:24</td> 
             <td>Aceitação do PP</td> 
@@ -1383,7 +1395,7 @@ CAAE,email
             </tr>
             
             <tr>
-            <th>9</th> 
+            <th>10</th> 
             <td>E5</td> 
             <td>17/03/2025 16:44:07</td> 
             <td>Submetido para avaliação do CEP</td> 
@@ -1392,22 +1404,6 @@ CAAE,email
             <td>PESQUISADOR</td> 
             <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
             <td></td>
-            </tr>
-            
-            <tr>
-            <th>10</th> 
-            <td>N17</td> 
-            <td>06/03/2025 13:02:49</td> 
-            <td>Rejeição do PP</td> 
-            <td>7</td> 
-            <td>Secretária</td> 
-            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-            <td>Prezado,
-
-Estamos rejeitando para ajustes.
-
-Att.,</td>
             </tr>
             </tbody> 
                     </table>
@@ -5530,6 +5526,18 @@ O arquivo em word não é o mesmo que o ar</td>
                     <tbody>
             <tr>
             <th>1</th> 
+            <td>N212</td> 
+            <td>25/03/2025 10:46:55</td> 
+            <td>Notificação enviada</td> 
+            <td>22</td> 
+            <td>Pesquisador</td> 
+            <td>PESQUISADOR</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>SAE_PID_721440891_Pneumonia_InicialFinal.</td>
+            </tr>
+            
+            <tr>
+            <th>2</th> 
             <td>N211</td> 
             <td>17/01/2025 14:51:15</td> 
             <td>Aceitação do PP</td> 
@@ -5541,7 +5549,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>2</th> 
+            <th>3</th> 
             <td>N211</td> 
             <td>08/01/2025 10:35:50</td> 
             <td>Notificação enviada</td> 
@@ -5553,7 +5561,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>3</th> 
+            <th>4</th> 
             <td>N210</td> 
             <td>16/12/2024 12:12:49</td> 
             <td>Parecer liberado</td> 
@@ -5565,7 +5573,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>4</th> 
+            <th>5</th> 
             <td>N210</td> 
             <td>16/12/2024 12:02:17</td> 
             <td>Parecer do colegiado emitido</td> 
@@ -5577,7 +5585,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>5</th> 
+            <th>6</th> 
             <td>N210</td> 
             <td>14/12/2024 13:55:16</td> 
             <td>Parecer do relator emitido</td> 
@@ -5589,7 +5597,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>6</th> 
+            <th>7</th> 
             <td>N210</td> 
             <td>02/12/2024 13:51:49</td> 
             <td>Confirmação de Indicação de Relatoria</td> 
@@ -5601,7 +5609,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>7</th> 
+            <th>8</th> 
             <td>N210</td> 
             <td>02/12/2024 06:56:24</td> 
             <td>Indicação de Relatoria</td> 
@@ -5613,7 +5621,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>8</th> 
+            <th>9</th> 
             <td>N210</td> 
             <td>02/12/2024 06:56:05</td> 
             <td>Aceitação do PP</td> 
@@ -5625,7 +5633,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>9</th> 
+            <th>10</th> 
             <td>N210</td> 
             <td>29/11/2024 11:54:46</td> 
             <td>Notificação enviada</td> 
@@ -5634,18 +5642,6 @@ O arquivo em word não é o mesmo que o ar</td>
             <td>PESQUISADOR</td> 
             <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
             <td>relatorio_semestral_nov24</td>
-            </tr>
-            
-            <tr>
-            <th>10</th> 
-            <td>N209</td> 
-            <td>14/11/2024 11:40:49</td> 
-            <td>Aceitação do PP</td> 
-            <td>22</td> 
-            <td>Coordenador</td> 
-            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-            <td></td>
             </tr>
             </tbody> 
                     </table>
@@ -6518,6 +6514,18 @@ O arquivo em word não é o mesmo que o ar</td>
             <tr>
             <th>1</th> 
             <td>E1</td> 
+            <td>25/03/2025 09:27:46</td> 
+            <td>Parecer do colegiado em análise</td> 
+            <td>3</td> 
+            <td>Assessor</td> 
+            <td>CONEP</td> 
+            <td>CONEP</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>2</th> 
+            <td>E1</td> 
             <td>24/03/2025 11:01:00</td> 
             <td>Parecer do relator emitido</td> 
             <td>3</td> 
@@ -6528,7 +6536,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>2</th> 
+            <th>3</th> 
             <td>E1</td> 
             <td>21/03/2025 11:46:25</td> 
             <td>Aceitação de Elaboração de Relatoria</td> 
@@ -6540,7 +6548,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>3</th> 
+            <th>4</th> 
             <td>E1</td> 
             <td>19/03/2025 10:42:04</td> 
             <td>Confirmação de Indicação de Relatoria</td> 
@@ -6552,7 +6560,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>4</th> 
+            <th>5</th> 
             <td>E1</td> 
             <td>19/03/2025 08:32:42</td> 
             <td>Indicação de Relatoria</td> 
@@ -6564,7 +6572,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>5</th> 
+            <th>6</th> 
             <td>E1</td> 
             <td>19/03/2025 08:32:12</td> 
             <td>Nota Técnica Liberada</td> 
@@ -6576,7 +6584,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>6</th> 
+            <th>7</th> 
             <td>E1</td> 
             <td>07/03/2025 13:08:32</td> 
             <td>Nota Técnica em Análise</td> 
@@ -6588,7 +6596,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>7</th> 
+            <th>8</th> 
             <td>E1</td> 
             <td>07/03/2025 13:08:30</td> 
             <td>Aceitação do PP</td> 
@@ -6600,7 +6608,7 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>8</th> 
+            <th>9</th> 
             <td>E1</td> 
             <td>07/03/2025 13:08:21</td> 
             <td>Aceitação do PP</td> 
@@ -6612,22 +6620,10 @@ O arquivo em word não é o mesmo que o ar</td>
             </tr>
             
             <tr>
-            <th>9</th> 
+            <th>10</th> 
             <td>E1</td> 
             <td>27/02/2025 09:27:20</td> 
             <td>Submetido para avaliação do CEP</td> 
-            <td>3</td> 
-            <td>Coordenador</td> 
-            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-            <td>CONEP</td> 
-            <td></td>
-            </tr>
-            
-            <tr>
-            <th>10</th> 
-            <td>E1</td> 
-            <td>27/02/2025 09:27:19</td> 
-            <td>Parecer liberado</td> 
             <td>3</td> 
             <td>Coordenador</td> 
             <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
@@ -7788,6 +7784,18 @@ ACTG A5360 (MINMON)</b></p>
             <tr>
             <th>1</th> 
             <td>N3</td> 
+            <td>25/03/2025 09:21:14</td> 
+            <td>Parecer do colegiado em análise</td> 
+            <td>6</td> 
+            <td>Assessor</td> 
+            <td>CONEP</td> 
+            <td>CONEP</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>2</th> 
+            <td>N3</td> 
             <td>24/03/2025 16:44:37</td> 
             <td>Parecer do relator emitido</td> 
             <td>6</td> 
@@ -7798,7 +7806,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>2</th> 
+            <th>3</th> 
             <td>N3</td> 
             <td>24/03/2025 16:44:02</td> 
             <td>Aceitação de Elaboração de Relatoria</td> 
@@ -7810,7 +7818,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>3</th> 
+            <th>4</th> 
             <td>N3</td> 
             <td>24/03/2025 09:40:01</td> 
             <td>Confirmação de Indicação de Relatoria</td> 
@@ -7822,7 +7830,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>4</th> 
+            <th>5</th> 
             <td>N3</td> 
             <td>21/03/2025 13:25:13</td> 
             <td>Indicação de Relatoria</td> 
@@ -7834,7 +7842,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>5</th> 
+            <th>6</th> 
             <td>N3</td> 
             <td>21/03/2025 13:24:33</td> 
             <td>Nota Técnica Liberada</td> 
@@ -7846,7 +7854,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>6</th> 
+            <th>7</th> 
             <td>N3</td> 
             <td>21/03/2025 13:04:19</td> 
             <td>Nota Técnica em Análise</td> 
@@ -7858,7 +7866,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>7</th> 
+            <th>8</th> 
             <td>N3</td> 
             <td>21/03/2025 13:04:11</td> 
             <td>Aceitação do PP</td> 
@@ -7870,7 +7878,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>8</th> 
+            <th>9</th> 
             <td>E2</td> 
             <td>19/03/2025 18:26:31</td> 
             <td>Parecer do Colegiado Editado</td> 
@@ -7882,24 +7890,12 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>9</th> 
+            <th>10</th> 
             <td>E2</td> 
             <td>17/03/2025 09:57:07</td> 
             <td>Parecer do colegiado emitido</td> 
             <td>8</td> 
             <td>Administrador</td> 
-            <td>CONEP</td> 
-            <td>CONEP</td> 
-            <td></td>
-            </tr>
-            
-            <tr>
-            <th>10</th> 
-            <td>E2</td> 
-            <td>15/03/2025 19:23:14</td> 
-            <td>Parecer do colegiado liberado</td> 
-            <td>8</td> 
-            <td>Assessor</td> 
             <td>CONEP</td> 
             <td>CONEP</td> 
             <td></td>
