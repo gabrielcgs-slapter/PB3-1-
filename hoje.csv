@@ -2419,6 +2419,18 @@ O cronograma deve ser atualizado também </td>
             <tr>
             <th>1</th> 
             <td>E6</td> 
+            <td>26/03/2025 12:07:58</td> 
+            <td>Parecer do colegiado liberado</td> 
+            <td>14</td> 
+            <td>Assessor</td> 
+            <td>CONEP</td> 
+            <td>CONEP</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>2</th> 
+            <td>E6</td> 
             <td>24/03/2025 14:06:05</td> 
             <td>Parecer do colegiado em análise</td> 
             <td>14</td> 
@@ -2429,7 +2441,7 @@ O cronograma deve ser atualizado também </td>
             </tr>
             
             <tr>
-            <th>2</th> 
+            <th>3</th> 
             <td>E6</td> 
             <td>21/03/2025 17:55:18</td> 
             <td>Parecer do relator emitido</td> 
@@ -2441,7 +2453,7 @@ O cronograma deve ser atualizado também </td>
             </tr>
             
             <tr>
-            <th>3</th> 
+            <th>4</th> 
             <td>E6</td> 
             <td>21/03/2025 17:48:06</td> 
             <td>Aceitação de Elaboração de Relatoria</td> 
@@ -2453,7 +2465,7 @@ O cronograma deve ser atualizado também </td>
             </tr>
             
             <tr>
-            <th>4</th> 
+            <th>5</th> 
             <td>N29</td> 
             <td>24/02/2025 15:55:30</td> 
             <td>Parecer liberado</td> 
@@ -2465,7 +2477,7 @@ O cronograma deve ser atualizado também </td>
             </tr>
             
             <tr>
-            <th>5</th> 
+            <th>6</th> 
             <td>N29</td> 
             <td>24/02/2025 14:19:59</td> 
             <td>Parecer do colegiado emitido</td> 
@@ -2477,7 +2489,7 @@ O cronograma deve ser atualizado também </td>
             </tr>
             
             <tr>
-            <th>6</th> 
+            <th>7</th> 
             <td>N29</td> 
             <td>21/02/2025 09:54:56</td> 
             <td>Parecer do relator emitido</td> 
@@ -2489,7 +2501,7 @@ O cronograma deve ser atualizado também </td>
             </tr>
             
             <tr>
-            <th>7</th> 
+            <th>8</th> 
             <td>E6</td> 
             <td>20/02/2025 10:37:17</td> 
             <td>Confirmação de Indicação de Relatoria</td> 
@@ -2501,7 +2513,7 @@ O cronograma deve ser atualizado também </td>
             </tr>
             
             <tr>
-            <th>8</th> 
+            <th>9</th> 
             <td>E6</td> 
             <td>19/02/2025 23:59:51</td> 
             <td>Indicação de Relatoria</td> 
@@ -2513,22 +2525,10 @@ O cronograma deve ser atualizado também </td>
             </tr>
             
             <tr>
-            <th>9</th> 
+            <th>10</th> 
             <td>E6</td> 
             <td>19/02/2025 23:59:07</td> 
             <td>Nota Técnica Liberada</td> 
-            <td>14</td> 
-            <td>Assessor</td> 
-            <td>CONEP</td> 
-            <td>CONEP</td> 
-            <td></td>
-            </tr>
-            
-            <tr>
-            <th>10</th> 
-            <td>E6</td> 
-            <td>17/02/2025 17:34:31</td> 
-            <td>Nota Técnica em Análise</td> 
             <td>14</td> 
             <td>Assessor</td> 
             <td>CONEP</td> 
@@ -10169,6 +10169,30 @@ ACTG A5360 (MINMON)</b></p>
             <tr>
             <th>1</th> 
             <td>PO</td> 
+            <td>26/03/2025 10:08:23</td> 
+            <td>Confirmação de Indicação de Relatoria</td> 
+            <td>1</td> 
+            <td>Coordenador</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>2</th> 
+            <td>PO</td> 
+            <td>26/03/2025 08:38:06</td> 
+            <td>Indicação de Relatoria</td> 
+            <td>1</td> 
+            <td>Secretária</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>3</th> 
+            <td>PO</td> 
             <td>20/03/2025 14:37:32</td> 
             <td>Aceitação do PP</td> 
             <td>1</td> 
@@ -10179,7 +10203,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>2</th> 
+            <th>4</th> 
             <td>PO</td> 
             <td>20/03/2025 13:52:46</td> 
             <td>Submetido para avaliação do CEP</td> 
@@ -10214,6 +10238,18 @@ ACTG A5360 (MINMON)</b></p>
             <tr>
             <th>1</th> 
             <td>PO</td> 
+            <td>26/03/2025 08:36:34</td> 
+            <td>Indicação de Relatoria</td> 
+            <td>1</td> 
+            <td>Secretária</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>2</th> 
+            <td>PO</td> 
             <td>21/03/2025 14:34:56</td> 
             <td>Aceitação do PP</td> 
             <td>1</td> 
@@ -10224,7 +10260,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>2</th> 
+            <th>3</th> 
             <td>PO</td> 
             <td>21/03/2025 12:38:53</td> 
             <td>Submetido para avaliação do CEP</td> 
@@ -10259,6 +10295,18 @@ ACTG A5360 (MINMON)</b></p>
             <tr>
             <th>1</th> 
             <td>PO</td> 
+            <td>26/03/2025 08:27:29</td> 
+            <td>Indicação de Relatoria</td> 
+            <td>1</td> 
+            <td>Secretária</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+            <td></td>
+            </tr>
+            
+            <tr>
+            <th>2</th> 
+            <td>PO</td> 
             <td>25/03/2025 07:48:52</td> 
             <td>Aceitação do PP</td> 
             <td>1</td> 
@@ -10269,7 +10317,7 @@ ACTG A5360 (MINMON)</b></p>
             </tr>
             
             <tr>
-            <th>2</th> 
+            <th>3</th> 
             <td>PO</td> 
             <td>24/03/2025 16:15:17</td> 
             <td>Submetido para avaliação do CEP</td> 
