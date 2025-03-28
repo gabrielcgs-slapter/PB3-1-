@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException, WebDriverException, NoSuchElementException
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -18,8 +19,8 @@ import email.message
 import psutil
 import re
 
-#destinatário = 'gabriel.calazans@ini.fiocruz.br'
-destinatário = 'regulatorios@ini.fiocruz.br'
+destinatário = 'gabriel.calazans@ini.fiocruz.br'
+#destinatário = 'regulatorios@ini.fiocruz.br'
 
 # GABRIEL LOGIN
 login = "gabrielcgs12@gmail.com"; senha = "0Dije!c!"
@@ -48,7 +49,7 @@ options.add_argument("--blink-settings=imagesEnabled=false")  # Desativa imagens
 options.add_argument("--disable-extensions")  # Desativa extensões
 options.add_argument("--disable-popup-blocking")  # Evita bloqueios de pop-up
 options.add_argument("--disable-infobars")  # Remove barra de informações do Chrome
-options.add_argument("--headless")  # Modo headless (opcional)
+#options.add_argument("--headless")  # Modo headless (opcional)
 service = Service(ChromeDriverManager().install())
 
 data_hora0 = datetime.datetime.now(timezone)
@@ -119,6 +120,7 @@ for i in range(paginas+1):
 
 list_CAAE = set(list_CAAE)
 list_CAAE = list(list_CAAE)
+list_CAAE = [item.replace("\n", "") if isinstance(item, str) else item for item in list_CAAE]
 print(f"CAAEs válidos extraídos: {len(list_CAAE)}")
 
 CAAE = list_CAAE
@@ -126,118 +128,123 @@ CAAE = list_CAAE
 df_email = []
 df_CAAE = []
 count = 0
+
 for i in CAAE:
-    t1 = datetime.datetime.now(timezone)
 
-    driver.find_element(By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').clear() #apagar
-    driver.find_element(By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').send_keys(i) #escrever CAAE
-    driver.find_element(By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').send_keys('\ue006') #clicar para pesquisar
-
-    o = 0
-    while o < 10:
+    max_retries = 3
+    retry_count = 0
+    while retry_count < max_retries:
         try:
-            # Clicar na lupa
-            wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[3]/div[2]/table/tbody/tr/td[10]/a/img'))).click() #clicar na lupa
+            t1 = datetime.datetime.now(timezone)
+
+            driver.find_element(By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').clear() #apagar
+            driver.find_element(By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').send_keys(i) #escrever CAAE
+            driver.find_element(By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[2]/div[2]/table[1]/tbody/tr/td[2]/table/tbody/tr[2]/td/input').send_keys('\ue006') #clicar para pesquisar
+
+            o = 0
+            while o < 10:
+                try:
+                    wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[6]/div[1]/form/div[3]/div[2]/table/tbody/tr/td[10]/a/img'))).click() #clicar na lupa
+                    break
+                except:
+                    # Esperar 1 segundo antes de tentar novamente
+                    time.sleep(1)
+                    o += 1
+
+            time.sleep(5)
+            
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            
+            
+            wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() #voltar ao menu
+            
+            
+            nome_estudo = soup.find('td', class_="text-top").text[21:].replace('"',"") #extrai o nome do estudo
+                        
+            PI = soup.find_all("td")[6].text #extrai o PI
+            PI = PI.replace("\n", "")
+
+            a = soup.find(id='formDetalharProjeto:tableTramiteApreciacaoProjeto:tb') #extrai o primeiro histórico de trâmites
+
+            time.sleep(2)
+            a = a.find_all('span')
+            b = []
+
+            for span in a:
+                b.append(span.text)
+            
+            q = []
+            output = []
+            x = 0
+
+            while x < len(b[0::8]):
+                t = f"""
+                    <tr>
+                    <th>{x+1}</th> 
+                    <td>{b[0::8][x]}</td> 
+                    <td>{b[1::8][x]}</td> 
+                    <td>{b[2::8][x]}</td> 
+                    <td>{b[3::8][x]}</td> 
+                    <td>{b[4::8][x]}</td> 
+                    <td>{b[5::8][x]}</td> 
+                    <td>{b[6::8][x]}</td> 
+                    <td>{b[7::8][x]}</td>
+                    </tr>
+                    """
+                q.append(t)
+                x = (x + 1)
+                
+            output = ''.join(q)
+
+            CAAE_estudo = soup.find_all("td")[15].text
+            CAAE_estudo = CAAE_estudo.replace("\n", "")
+            CAAE_estudo = CAAE_estudo.replace("CAAE: ","")
+
+            tabela_tramites = f"""
+                            <table border="1" class="dataframe" style="text-align: center"> 
+                            <thead><tr> 
+                            <th></th> 
+                            <th>Apreciação</th> 
+                            <th>Data/Hora</th> 
+                            <th>Tipo Trâmite</th> 
+                            <th>Versão</th> 
+                            <th>Perfil</th> 
+                            <th>Origem</th> 
+                            <th>Destino</th> 
+                            <th>Informações</th> 
+                            </tr></thead> 
+                            <tbody>{output}</tbody> 
+                            </table>
+                            """
+
+            corpo_email =   f"""
+                            <p><b>{nome_estudo}</b></p> 
+                            <p>CAAE: {CAAE_estudo}</p> 
+                            <p>{PI}</p> 
+                            {tabela_tramites}
+                            """
+
+            df_email.append(corpo_email)
+            df_CAAE.append(CAAE_estudo)
+            
+            t2 = datetime.datetime.now(timezone)
+            t = t2-t1
+
+            #Contador
+            count = count + 1
+            con = f'Progresso: {count}/{len(CAAE)} Duração: {str(t)[2:9]}'
+            print(con)
+
             break
-        except:
-            # Esperar 1 segundo antes de tentar novamente
-            time.sleep(1)
-            o += 1
+        except Exception as e:
+            retry_count += 1
+            print(f"Erro no CAAE {i}: {e}. Tentativa {retry_count} de {max_retries}")
+            # Recarregar página ou voltar à página inicial
+            wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() #voltar ao menu
+            time.sleep(10)
 
-    time.sleep(5)
-    
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    
-    #voltar ao menu
-    wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() 
-    
-    #extrai o nome do estudo
-    nome_estudo = soup.find('td', class_="text-top").text[21:].replace('"',"")
-    
-    #extrai o PI
-    PI = soup.find_all("td")[6].text
-    PI = PI.replace("\n", "")
 
-    #extrai o primeiro histórico de trâmites
-    a = soup.find(id='formDetalharProjeto:tableTramiteApreciacaoProjeto:tb')
-    time.sleep(2)
-    a = a.find_all('span')
-    b = []
-
-    for span in a:
-        b.append(span.text)
-    
-    #coluna1 = b[0::8]
-    #coluna2 = b[1::8]
-    #coluna3 = b[2::8]
-    #coluna4 = b[3::8]
-    #coluna5 = b[4::8]
-    #coluna6 = b[5::8]
-    #coluna7 = b[6::8]
-    #coluna8 = b[7::8]
-
-    q = []
-    output = []
-    x = 0
-
-    while x < len(b[0::8]):
-        t = f"""
-            <tr>
-            <th>{x+1}</th> 
-            <td>{b[0::8][x]}</td> 
-            <td>{b[1::8][x]}</td> 
-            <td>{b[2::8][x]}</td> 
-            <td>{b[3::8][x]}</td> 
-            <td>{b[4::8][x]}</td> 
-            <td>{b[5::8][x]}</td> 
-            <td>{b[6::8][x]}</td> 
-            <td>{b[7::8][x]}</td>
-            </tr>
-            """
-        q.append(t)
-        x = (x + 1)
-        
-    output = ''.join(q)
-
-    CAAE_estudo = soup.find_all("td")[15].text
-    CAAE_estudo = CAAE_estudo.replace("\n", "")
-    CAAE_estudo = CAAE_estudo.replace("CAAE: ","")
-
-    tabela_tramites = f"""
-                    <table border="1" class="dataframe" style="text-align: center"> 
-                    <thead><tr> 
-                    <th></th> 
-                    <th>Apreciação</th> 
-                    <th>Data/Hora</th> 
-                    <th>Tipo Trâmite</th> 
-                    <th>Versão</th> 
-                    <th>Perfil</th> 
-                    <th>Origem</th> 
-                    <th>Destino</th> 
-                    <th>Informações</th> 
-                    </tr></thead> 
-                    <tbody>{output}</tbody> 
-                    </table>
-                    """
-
-    corpo_email =   f"""
-                    <p><b>{nome_estudo}</b></p> 
-                    <p>CAAE: {CAAE_estudo}</p> 
-                    <p>{PI}</p> 
-                    {tabela_tramites}
-                    """
-
-    df_email.append(corpo_email)
-    df_CAAE.append(CAAE_estudo)
-    
-    t2 = datetime.datetime.now(timezone)
-    t = t2-t1
-
-    #Contador
-    count = count + 1
-    con = f'Progresso: {count}/{len(CAAE)} Duração: {str(t)[2:9]}'
-    print(con)
-print("Trãmites extraidos")
+print("Trâmites extraidos")
 driver.close()
 
 # Criar DataFrame com as informações de estudo, CAAE e tabela do histórico de tramites
