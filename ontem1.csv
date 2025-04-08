@@ -8037,6 +8037,18 @@ ACTG A5360 (MINMON)</b></p>
                     <tr>
                     <th>1</th> 
                     <td>N5</td> 
+                    <td>07/04/2025 12:16:05</td> 
+                    <td>Aceitação do PP</td> 
+                    <td>4</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>N5</td> 
                     <td>21/03/2025 12:22:08</td> 
                     <td>Notificação enviada</td> 
                     <td>4</td> 
@@ -8047,7 +8059,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>N5</td> 
                     <td>21/03/2025 12:22:07</td> 
                     <td>Parecer liberado</td> 
@@ -8059,7 +8071,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>4</th> 
                     <td>N5</td> 
                     <td>21/03/2025 11:43:16</td> 
                     <td>Parecer do colegiado emitido</td> 
@@ -8071,7 +8083,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>5</th> 
                     <td>N5</td> 
                     <td>20/03/2025 22:58:12</td> 
                     <td>Parecer do relator emitido</td> 
@@ -8083,7 +8095,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>6</th> 
                     <td>N5</td> 
                     <td>27/02/2025 10:16:49</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
@@ -8095,7 +8107,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>7</th> 
                     <td>N5</td> 
                     <td>26/02/2025 06:40:24</td> 
                     <td>Indicação de Relatoria</td> 
@@ -8107,7 +8119,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>8</th> 
                     <td>N4</td> 
                     <td>24/02/2025 16:18:02</td> 
                     <td>Parecer liberado</td> 
@@ -8119,7 +8131,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>9</th> 
                     <td>N4</td> 
                     <td>24/02/2025 16:13:25</td> 
                     <td>Parecer do Colegiado Editado</td> 
@@ -8131,22 +8143,10 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>9</th> 
+                    <th>10</th> 
                     <td>N4</td> 
                     <td>24/02/2025 16:11:07</td> 
                     <td>Parecer do colegiado emitido</td> 
-                    <td>4</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N4</td> 
-                    <td>24/02/2025 13:47:52</td> 
-                    <td>Parecer do relator emitido</td> 
                     <td>4</td> 
                     <td>Membro do CEP</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
