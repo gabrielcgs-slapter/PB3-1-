@@ -4964,6 +4964,18 @@ O arquivo em word não é o mesmo que o ar</td>
                     <tr>
                     <th>1</th> 
                     <td>N8</td> 
+                    <td>10/04/2025 08:36:32</td> 
+                    <td>Aceitação do PP</td> 
+                    <td>6</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>N8</td> 
                     <td>04/04/2025 14:36:31</td> 
                     <td>Notificação enviada</td> 
                     <td>6</td> 
@@ -4974,7 +4986,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>N7</td> 
                     <td>18/03/2025 14:26:50</td> 
                     <td>Aceitação do PP</td> 
@@ -4986,7 +4998,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>4</th> 
                     <td>N7</td> 
                     <td>18/03/2025 14:12:29</td> 
                     <td>Notificação enviada</td> 
@@ -4998,7 +5010,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>5</th> 
                     <td>N6</td> 
                     <td>14/02/2025 08:31:24</td> 
                     <td>Aceitação do PP</td> 
@@ -5010,7 +5022,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>6</th> 
                     <td>N6</td> 
                     <td>13/02/2025 15:04:25</td> 
                     <td>Notificação enviada</td> 
@@ -5022,7 +5034,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>7</th> 
                     <td>N5</td> 
                     <td>16/12/2024 12:04:38</td> 
                     <td>Parecer liberado</td> 
@@ -5034,7 +5046,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>8</th> 
                     <td>N5</td> 
                     <td>16/12/2024 10:28:30</td> 
                     <td>Parecer do colegiado emitido</td> 
@@ -5046,7 +5058,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>9</th> 
                     <td>N5</td> 
                     <td>16/12/2024 10:27:42</td> 
                     <td>Parecer do relator emitido</td> 
@@ -5058,24 +5070,12 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>9</th> 
+                    <th>10</th> 
                     <td>N5</td> 
                     <td>02/12/2024 07:35:15</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
                     <td>6</td> 
                     <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N5</td> 
-                    <td>02/12/2024 06:40:22</td> 
-                    <td>Indicação de Relatoria</td> 
-                    <td>6</td> 
-                    <td>Secretária</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td></td>
@@ -8178,6 +8178,18 @@ ACTG A5360 (MINMON)</b></p>
                     <tr>
                     <th>1</th> 
                     <td>N3</td> 
+                    <td>10/04/2025 12:13:05</td> 
+                    <td>Parecer do colegiado liberado</td> 
+                    <td>2</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>N3</td> 
                     <td>24/02/2025 16:42:12</td> 
                     <td>Parecer do colegiado em análise</td> 
                     <td>2</td> 
@@ -8188,7 +8200,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>N3</td> 
                     <td>31/01/2025 17:24:16</td> 
                     <td>Parecer do relator emitido</td> 
@@ -8200,7 +8212,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>4</th> 
                     <td>N3</td> 
                     <td>31/01/2025 17:23:38</td> 
                     <td>Aceitação de Elaboração de Relatoria</td> 
@@ -8212,7 +8224,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>5</th> 
                     <td>N3</td> 
                     <td>17/01/2025 18:40:24</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
@@ -8224,7 +8236,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>6</th> 
                     <td>N3</td> 
                     <td>17/01/2025 13:15:00</td> 
                     <td>Indicação de Relatoria</td> 
@@ -8236,7 +8248,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>7</th> 
                     <td>N3</td> 
                     <td>17/01/2025 13:14:38</td> 
                     <td>Nota Técnica Liberada</td> 
@@ -8248,7 +8260,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>8</th> 
                     <td>N3</td> 
                     <td>17/01/2025 13:13:43</td> 
                     <td>Nota Técnica em Análise</td> 
@@ -8260,7 +8272,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>9</th> 
                     <td>N3</td> 
                     <td>17/01/2025 13:00:44</td> 
                     <td>Aceitação do PP</td> 
@@ -8272,7 +8284,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>9</th> 
+                    <th>10</th> 
                     <td>N3</td> 
                     <td>14/01/2025 08:31:54</td> 
                     <td>Notificação enviada</td> 
@@ -8281,18 +8293,6 @@ ACTG A5360 (MINMON)</b></p>
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>CONEP</td> 
                     <td>A reaprovação anual se deve a uma exigência do FDA</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N3</td> 
-                    <td>14/01/2025 08:31:54</td> 
-                    <td>Parecer liberado</td> 
-                    <td>2</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>CONEP</td> 
-                    <td></td>
                     </tr>
                     </tbody> 
                             </table>
