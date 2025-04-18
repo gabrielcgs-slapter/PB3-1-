@@ -7343,6 +7343,18 @@ ACTG A5360 (MINMON)</b></p>
                             <tbody>
                     <tr>
                     <th>1</th> 
+                    <td>N4</td> 
+                    <td>16/04/2025 16:51:57</td> 
+                    <td>Notificação enviada</td> 
+                    <td>8</td> 
+                    <td>Pesquisador</td> 
+                    <td>PESQUISADOR</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
                     <td>N3</td> 
                     <td>16/04/2025 11:16:30</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
@@ -7354,7 +7366,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>N3</td> 
                     <td>15/04/2025 11:48:07</td> 
                     <td>Indicação de Relatoria</td> 
@@ -7366,7 +7378,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>4</th> 
                     <td>N3</td> 
                     <td>10/04/2025 17:02:03</td> 
                     <td>Parecer liberado</td> 
@@ -7378,7 +7390,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>5</th> 
                     <td>N3</td> 
                     <td>10/04/2025 15:16:33</td> 
                     <td>Aceitação do PP</td> 
@@ -7390,7 +7402,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>6</th> 
                     <td>N3</td> 
                     <td>03/04/2025 17:34:58</td> 
                     <td>Parecer do Colegiado Editado</td> 
@@ -7402,7 +7414,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>7</th> 
                     <td>N3</td> 
                     <td>01/04/2025 17:51:40</td> 
                     <td>Notificação enviada</td> 
@@ -7414,7 +7426,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>8</th> 
                     <td>N2</td> 
                     <td>31/03/2025 18:54:02</td> 
                     <td>Parecer liberado</td> 
@@ -7426,7 +7438,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>9</th> 
                     <td>N2</td> 
                     <td>31/03/2025 13:33:12</td> 
                     <td>Parecer do colegiado emitido</td> 
@@ -7438,22 +7450,10 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>9</th> 
+                    <th>10</th> 
                     <td>N2</td> 
                     <td>31/03/2025 13:31:08</td> 
                     <td>Parecer do relator emitido</td> 
-                    <td>8</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N2</td> 
-                    <td>31/03/2025 13:05:13</td> 
-                    <td>Aceitação de Elaboração de Relatoria</td> 
                     <td>8</td> 
                     <td>Membro do CEP</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
@@ -7614,6 +7614,18 @@ ACTG A5360 (MINMON)</b></p>
                     <tr>
                     <th>1</th> 
                     <td>E2</td> 
+                    <td>16/04/2025 12:50:42</td> 
+                    <td>Aceitação de Elaboração de Relatoria</td> 
+                    <td>4</td> 
+                    <td>Membro do CEP</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>E2</td> 
                     <td>16/04/2025 11:18:19</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
                     <td>4</td> 
@@ -7624,7 +7636,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>E2</td> 
                     <td>15/04/2025 15:38:33</td> 
                     <td>Indicação de Relatoria</td> 
@@ -7636,7 +7648,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>4</th> 
                     <td>E2</td> 
                     <td>14/04/2025 15:28:44</td> 
                     <td>Aceitação do PP</td> 
@@ -7648,7 +7660,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>5</th> 
                     <td>E2</td> 
                     <td>14/04/2025 10:12:47</td> 
                     <td>Submetido para avaliação do CEP</td> 
@@ -7660,7 +7672,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>6</th> 
                     <td>E1</td> 
                     <td>10/03/2025 19:16:31</td> 
                     <td>Parecer liberado</td> 
@@ -7672,7 +7684,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>7</th> 
                     <td>E1</td> 
                     <td>06/03/2025 23:36:51</td> 
                     <td>Parecer do Colegiado Editado</td> 
@@ -7684,7 +7696,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>8</th> 
                     <td>E1</td> 
                     <td>28/02/2025 22:40:13</td> 
                     <td>Parecer do colegiado emitido</td> 
@@ -7696,7 +7708,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>9</th> 
                     <td>N7</td> 
                     <td>27/02/2025 13:35:03</td> 
                     <td>Aceitação do PP</td> 
@@ -7708,22 +7720,10 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>9</th> 
+                    <th>10</th> 
                     <td>E1</td> 
                     <td>27/02/2025 12:33:41</td> 
                     <td>Parecer do colegiado liberado</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>E1</td> 
-                    <td>26/02/2025 12:11:38</td> 
-                    <td>Parecer do colegiado em análise</td> 
                     <td>3</td> 
                     <td>Assessor</td> 
                     <td>CONEP</td> 
@@ -8036,6 +8036,42 @@ ACTG A5360 (MINMON)</b></p>
                             <tbody>
                     <tr>
                     <th>1</th> 
+                    <td>N5</td> 
+                    <td>16/04/2025 17:24:02</td> 
+                    <td>Indicação de Relatoria</td> 
+                    <td>4</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>N5</td> 
+                    <td>16/04/2025 17:23:18</td> 
+                    <td>Nota Técnica Liberada</td> 
+                    <td>4</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>3</th> 
+                    <td>N5</td> 
+                    <td>16/04/2025 17:17:00</td> 
+                    <td>Nota Técnica em Análise</td> 
+                    <td>4</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>4</th> 
                     <td>N6</td> 
                     <td>16/04/2025 11:17:58</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
@@ -8047,7 +8083,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>5</th> 
                     <td>N6</td> 
                     <td>15/04/2025 11:52:17</td> 
                     <td>Indicação de Relatoria</td> 
@@ -8059,7 +8095,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>6</th> 
                     <td>N6</td> 
                     <td>14/04/2025 10:13:15</td> 
                     <td>Aceitação do PP</td> 
@@ -8071,7 +8107,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>7</th> 
                     <td>N6</td> 
                     <td>11/04/2025 12:40:45</td> 
                     <td>Notificação enviada</td> 
@@ -8083,7 +8119,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>8</th> 
                     <td>N5</td> 
                     <td>07/04/2025 12:16:05</td> 
                     <td>Aceitação do PP</td> 
@@ -8095,7 +8131,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>9</th> 
                     <td>N5</td> 
                     <td>21/03/2025 12:22:08</td> 
                     <td>Notificação enviada</td> 
@@ -8107,7 +8143,7 @@ ACTG A5360 (MINMON)</b></p>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>10</th> 
                     <td>N5</td> 
                     <td>21/03/2025 12:22:07</td> 
                     <td>Parecer liberado</td> 
@@ -8115,42 +8151,6 @@ ACTG A5360 (MINMON)</b></p>
                     <td>Coordenador</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>N5</td> 
-                    <td>21/03/2025 11:43:16</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>4</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>N5</td> 
-                    <td>20/03/2025 22:58:12</td> 
-                    <td>Parecer do relator emitido</td> 
-                    <td>4</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N5</td> 
-                    <td>27/02/2025 10:16:49</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>4</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td></td>
                     </tr>
                     </tbody> 
@@ -10316,6 +10316,18 @@ Como o projeto não aplicará TCLE. Solici</td>
                     <tr>
                     <th>1</th> 
                     <td>PO</td> 
+                    <td>16/04/2025 13:08:39</td> 
+                    <td>Indicação de Relatoria</td> 
+                    <td>1</td> 
+                    <td>Secretária</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>PO</td> 
                     <td>14/04/2025 15:29:43</td> 
                     <td>Aceitação do PP</td> 
                     <td>1</td> 
@@ -10326,7 +10338,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>PO</td> 
                     <td>11/04/2025 15:05:46</td> 
                     <td>Submetido para avaliação do CEP</td> 
@@ -10361,6 +10373,18 @@ Como o projeto não aplicará TCLE. Solici</td>
                     <tr>
                     <th>1</th> 
                     <td>PO</td> 
+                    <td>16/04/2025 13:09:33</td> 
+                    <td>Indicação de Relatoria</td> 
+                    <td>1</td> 
+                    <td>Secretária</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>PO</td> 
                     <td>14/04/2025 15:33:58</td> 
                     <td>Aceitação do PP</td> 
                     <td>1</td> 
@@ -10371,7 +10395,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>PO</td> 
                     <td>10/04/2025 09:58:38</td> 
                     <td>Submetido para avaliação do CEP</td> 
@@ -10406,6 +10430,18 @@ Como o projeto não aplicará TCLE. Solici</td>
                     <tr>
                     <th>1</th> 
                     <td>PO</td> 
+                    <td>16/04/2025 13:02:39</td> 
+                    <td>Indicação de Relatoria</td> 
+                    <td>1</td> 
+                    <td>Secretária</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>PO</td> 
                     <td>15/04/2025 10:22:40</td> 
                     <td>Aceitação do PP</td> 
                     <td>1</td> 
@@ -10416,7 +10452,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>PO</td> 
                     <td>14/04/2025 23:19:04</td> 
                     <td>Submetido para avaliação do CEP</td> 
