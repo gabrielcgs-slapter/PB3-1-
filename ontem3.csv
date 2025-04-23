@@ -5788,6 +5788,18 @@ tuberculose</b></p>
                     <tr>
                     <th>1</th> 
                     <td>E1</td> 
+                    <td>21/04/2025 13:51:40</td> 
+                    <td>Parecer liberado</td> 
+                    <td>3</td> 
+                    <td>Coordenador</td> 
+                    <td>CONEP</td> 
+                    <td>PESQUISADOR</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>E1</td> 
                     <td>14/04/2025 16:30:18</td> 
                     <td>Parecer do Colegiado Editado</td> 
                     <td>3</td> 
@@ -5798,7 +5810,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>E1</td> 
                     <td>28/03/2025 16:50:42</td> 
                     <td>Parecer do colegiado emitido</td> 
@@ -5810,7 +5822,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>4</th> 
                     <td>E1</td> 
                     <td>28/03/2025 14:55:37</td> 
                     <td>Parecer do colegiado liberado</td> 
@@ -5822,7 +5834,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>5</th> 
                     <td>E1</td> 
                     <td>25/03/2025 09:27:46</td> 
                     <td>Parecer do colegiado em análise</td> 
@@ -5834,7 +5846,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>6</th> 
                     <td>E1</td> 
                     <td>24/03/2025 11:01:00</td> 
                     <td>Parecer do relator emitido</td> 
@@ -5846,7 +5858,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>7</th> 
                     <td>E1</td> 
                     <td>21/03/2025 11:46:25</td> 
                     <td>Aceitação de Elaboração de Relatoria</td> 
@@ -5858,7 +5870,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>8</th> 
                     <td>E1</td> 
                     <td>19/03/2025 10:42:04</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
@@ -5870,7 +5882,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>9</th> 
                     <td>E1</td> 
                     <td>19/03/2025 08:32:42</td> 
                     <td>Indicação de Relatoria</td> 
@@ -5882,22 +5894,10 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>9</th> 
+                    <th>10</th> 
                     <td>E1</td> 
                     <td>19/03/2025 08:32:12</td> 
                     <td>Nota Técnica Liberada</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>E1</td> 
-                    <td>07/03/2025 13:08:32</td> 
-                    <td>Nota Técnica em Análise</td> 
                     <td>3</td> 
                     <td>Assessor</td> 
                     <td>CONEP</td> 
@@ -6351,6 +6351,18 @@ tuberculose</b></p>
                             <tbody>
                     <tr>
                     <th>1</th> 
+                    <td>E5</td> 
+                    <td>21/04/2025 13:29:15</td> 
+                    <td>Parecer liberado</td> 
+                    <td>10</td> 
+                    <td>Coordenador</td> 
+                    <td>CONEP</td> 
+                    <td>PESQUISADOR</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
                     <td>N24</td> 
                     <td>16/04/2025 11:16:57</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
@@ -6362,7 +6374,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>E5</td> 
                     <td>15/04/2025 15:56:10</td> 
                     <td>Parecer do Colegiado Editado</td> 
@@ -6374,7 +6386,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>4</th> 
                     <td>N24</td> 
                     <td>15/04/2025 11:46:49</td> 
                     <td>Indicação de Relatoria</td> 
@@ -6386,7 +6398,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>5</th> 
                     <td>N24</td> 
                     <td>10/04/2025 15:13:54</td> 
                     <td>Aceitação do PP</td> 
@@ -6398,7 +6410,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>6</th> 
                     <td>E5</td> 
                     <td>02/04/2025 10:13:35</td> 
                     <td>Parecer do colegiado emitido</td> 
@@ -6410,7 +6422,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>7</th> 
                     <td>E5</td> 
                     <td>02/04/2025 10:13:12</td> 
                     <td>Parecer do relator emitido</td> 
@@ -6422,7 +6434,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>8</th> 
                     <td>E5</td> 
                     <td>02/04/2025 10:11:00</td> 
                     <td>Aceitação de Elaboração de Relatoria</td> 
@@ -6434,7 +6446,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>9</th> 
                     <td>N24</td> 
                     <td>28/03/2025 16:27:33</td> 
                     <td>Notificação enviada</td> 
@@ -6446,22 +6458,10 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>9</th> 
+                    <th>10</th> 
                     <td>E5</td> 
                     <td>28/03/2025 13:02:22</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>10</td> 
-                    <td>Administrador</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>E5</td> 
-                    <td>28/03/2025 12:59:21</td> 
-                    <td>Indicação de Relatoria</td> 
                     <td>10</td> 
                     <td>Administrador</td> 
                     <td>CONEP</td> 
@@ -8854,6 +8854,147 @@ ACTG A5360 (MINMON)</b></p>
                     <td>Aceitação do PP</td> 
                     <td>6</td> 
                     <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    </tbody> 
+                            </table>
+                            
+                            "
+79947824.2.1001.5262,"
+                            <p><b>A5385 - Coorte de Observação de Controle Pós-Intervenção</b></p> 
+                            <p>CAAE: 79947824.2.1001.5262</p> 
+                            <p>Pesquisador Responsável: Sandra Wagner Cardoso</p> 
+                            
+                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
+                            <thead><tr> 
+                            <th></th> 
+                            <th>Apreciação</th> 
+                            <th>Data/Hora</th> 
+                            <th>Tipo Trâmite</th> 
+                            <th>Versão</th> 
+                            <th>Perfil</th> 
+                            <th>Origem</th> 
+                            <th>Destino</th> 
+                            <th>Informações</th> 
+                            </tr></thead> 
+                            <tbody>
+                    <tr>
+                    <th>1</th> 
+                    <td>PO</td> 
+                    <td>22/04/2025 07:56:51</td> 
+                    <td>Nota Técnica em Análise</td> 
+                    <td>4</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>PO</td> 
+                    <td>22/04/2025 07:56:49</td> 
+                    <td>Aceitação do PP</td> 
+                    <td>4</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>3</th> 
+                    <td>PO</td> 
+                    <td>22/04/2025 07:56:34</td> 
+                    <td>Aceitação do PP</td> 
+                    <td>4</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>4</th> 
+                    <td>PO</td> 
+                    <td>16/04/2025 16:17:19</td> 
+                    <td>Submetido para avaliação do CEP</td> 
+                    <td>4</td> 
+                    <td>Assistente da Pesquisa</td> 
+                    <td>PESQUISADOR</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>5</th> 
+                    <td>PO</td> 
+                    <td>17/03/2025 13:18:31</td> 
+                    <td>Parecer liberado</td> 
+                    <td>3</td> 
+                    <td>Coordenador</td> 
+                    <td>CONEP</td> 
+                    <td>PESQUISADOR</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>6</th> 
+                    <td>PO</td> 
+                    <td>09/03/2025 23:43:46</td> 
+                    <td>Parecer do Colegiado Editado</td> 
+                    <td>3</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>7</th> 
+                    <td>PO</td> 
+                    <td>26/02/2025 15:52:47</td> 
+                    <td>Parecer do colegiado emitido</td> 
+                    <td>3</td> 
+                    <td>Administrador</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>8</th> 
+                    <td>PO</td> 
+                    <td>25/02/2025 13:50:51</td> 
+                    <td>Parecer do colegiado liberado</td> 
+                    <td>3</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>9</th> 
+                    <td>PO</td> 
+                    <td>25/02/2025 09:15:33</td> 
+                    <td>Parecer do colegiado em análise</td> 
+                    <td>3</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>10</th> 
+                    <td>PO</td> 
+                    <td>24/02/2025 19:11:56</td> 
+                    <td>Parecer do relator emitido</td> 
+                    <td>3</td> 
+                    <td>Membro do CEP</td> 
                     <td>CONEP</td> 
                     <td>CONEP</td> 
                     <td></td>
