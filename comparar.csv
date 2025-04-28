@@ -1,569 +1,7 @@
 CAAE,email_x,email_y
-75323823.0.1001.5262,"
-                            <p><b>Ensaio clínico randomizado de fase I/IIa controlado por placebo de vacina de células T conservadas em mosaico em um esquema com Vesatolimod e anticorpos amplamente neutralizantes em adultos iniciados em terapia antirretroviral supressiva na fase aguda do HIV-1 - A5374</b></p> 
-                            <p>CAAE: 75323823.0.1001.5262</p> 
-                            <p>Pesquisador Responsável: Sandra Wagner Cardoso</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>N4</td> 
-                    <td>28/04/2025 08:26:48</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>8</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>N3</td> 
-                    <td>24/04/2025 18:01:25</td> 
-                    <td>Parecer liberado</td> 
-                    <td>8</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>N3</td> 
-                    <td>24/04/2025 16:27:50</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>8</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>N3</td> 
-                    <td>24/04/2025 16:26:47</td> 
-                    <td>Parecer do relator emitido</td> 
-                    <td>8</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>N4</td> 
-                    <td>16/04/2025 16:51:57</td> 
-                    <td>Notificação enviada</td> 
-                    <td>8</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>N3</td> 
-                    <td>16/04/2025 11:16:30</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>8</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>7</th> 
-                    <td>N3</td> 
-                    <td>15/04/2025 11:48:07</td> 
-                    <td>Indicação de Relatoria</td> 
-                    <td>8</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>N3</td> 
-                    <td>10/04/2025 17:02:03</td> 
-                    <td>Parecer liberado</td> 
-                    <td>6</td> 
-                    <td>Coordenador</td> 
-                    <td>CONEP</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>N3</td> 
-                    <td>10/04/2025 15:16:33</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>8</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N3</td> 
-                    <td>03/04/2025 17:34:58</td> 
-                    <td>Parecer do Colegiado Editado</td> 
-                    <td>6</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            ","
-                            <p><b>Ensaio clínico randomizado de fase I/IIa controlado por placebo de vacina de células T conservadas em mosaico em um esquema com Vesatolimod e anticorpos amplamente neutralizantes em adultos iniciados em terapia antirretroviral supressiva na fase aguda do HIV-1 - A5374</b></p> 
-                            <p>CAAE: 75323823.0.1001.5262</p> 
-                            <p>Pesquisador Responsável: Sandra Wagner Cardoso</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>N3</td> 
-                    <td>24/04/2025 18:01:25</td> 
-                    <td>Parecer liberado</td> 
-                    <td>8</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>N3</td> 
-                    <td>24/04/2025 16:27:50</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>8</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>N3</td> 
-                    <td>24/04/2025 16:26:47</td> 
-                    <td>Parecer do relator emitido</td> 
-                    <td>8</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>N4</td> 
-                    <td>16/04/2025 16:51:57</td> 
-                    <td>Notificação enviada</td> 
-                    <td>8</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>N3</td> 
-                    <td>16/04/2025 11:16:30</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>8</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>N3</td> 
-                    <td>15/04/2025 11:48:07</td> 
-                    <td>Indicação de Relatoria</td> 
-                    <td>8</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>7</th> 
-                    <td>N3</td> 
-                    <td>10/04/2025 17:02:03</td> 
-                    <td>Parecer liberado</td> 
-                    <td>6</td> 
-                    <td>Coordenador</td> 
-                    <td>CONEP</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>N3</td> 
-                    <td>10/04/2025 15:16:33</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>8</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>N3</td> 
-                    <td>03/04/2025 17:34:58</td> 
-                    <td>Parecer do Colegiado Editado</td> 
-                    <td>6</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N3</td> 
-                    <td>01/04/2025 17:51:40</td> 
-                    <td>Notificação enviada</td> 
-                    <td>8</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Envio de carta resposta parecer ao Nº7.478.394.</td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            "
-75708123.2.1001.5262,"
-                            <p><b>Seguimento de longo prazo de participantes dos estudos de profilaxia pré exposição (PrEP) HPTN 083 e HPTN 084 tratados com CAB- LA e sob risco de adquirir HIV. Protocolo 221163</b></p> 
-                            <p>CAAE: 75708123.2.1001.5262</p> 
-                            <p>Pesquisador Responsável: Beatriz Grinsztejn</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>N7</td> 
-                    <td>28/04/2025 08:20:31</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>3</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>N8</td> 
-                    <td>25/04/2025 11:10:27</td> 
-                    <td>Notificação enviada</td> 
-                    <td>3</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Relato de SAE</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>N7</td> 
-                    <td>24/04/2025 14:54:38</td> 
-                    <td>Notificação enviada</td> 
-                    <td>3</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Brochura Versão 15 de 05 de Janeiro de 2025.</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>E2</td> 
-                    <td>16/04/2025 12:50:42</td> 
-                    <td>Aceitação de Elaboração de Relatoria</td> 
-                    <td>4</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>E2</td> 
-                    <td>16/04/2025 11:18:19</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>4</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>E2</td> 
-                    <td>15/04/2025 15:38:33</td> 
-                    <td>Indicação de Relatoria</td> 
-                    <td>4</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>7</th> 
-                    <td>E2</td> 
-                    <td>14/04/2025 15:28:44</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>4</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>E2</td> 
-                    <td>14/04/2025 10:12:47</td> 
-                    <td>Submetido para avaliação do CEP</td> 
-                    <td>4</td> 
-                    <td>Assistente da Pesquisa</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>E1</td> 
-                    <td>10/03/2025 19:16:31</td> 
-                    <td>Parecer liberado</td> 
-                    <td>3</td> 
-                    <td>Coordenador</td> 
-                    <td>CONEP</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>E1</td> 
-                    <td>06/03/2025 23:36:51</td> 
-                    <td>Parecer do Colegiado Editado</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            ","
-                            <p><b>Seguimento de longo prazo de participantes dos estudos de profilaxia pré exposição (PrEP) HPTN 083 e HPTN 084 tratados com CAB- LA e sob risco de adquirir HIV. Protocolo 221163</b></p> 
-                            <p>CAAE: 75708123.2.1001.5262</p> 
-                            <p>Pesquisador Responsável: Beatriz Grinsztejn</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>N7</td> 
-                    <td>24/04/2025 14:54:38</td> 
-                    <td>Notificação enviada</td> 
-                    <td>3</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Brochura Versão 15 de 05 de Janeiro de 2025.</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>E2</td> 
-                    <td>16/04/2025 12:50:42</td> 
-                    <td>Aceitação de Elaboração de Relatoria</td> 
-                    <td>4</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>E2</td> 
-                    <td>16/04/2025 11:18:19</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>4</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>E2</td> 
-                    <td>15/04/2025 15:38:33</td> 
-                    <td>Indicação de Relatoria</td> 
-                    <td>4</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>E2</td> 
-                    <td>14/04/2025 15:28:44</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>4</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>E2</td> 
-                    <td>14/04/2025 10:12:47</td> 
-                    <td>Submetido para avaliação do CEP</td> 
-                    <td>4</td> 
-                    <td>Assistente da Pesquisa</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>7</th> 
-                    <td>E1</td> 
-                    <td>10/03/2025 19:16:31</td> 
-                    <td>Parecer liberado</td> 
-                    <td>3</td> 
-                    <td>Coordenador</td> 
-                    <td>CONEP</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>E1</td> 
-                    <td>06/03/2025 23:36:51</td> 
-                    <td>Parecer do Colegiado Editado</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>E1</td> 
-                    <td>28/02/2025 22:40:13</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>3</td> 
-                    <td>Administrador</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N7</td> 
-                    <td>27/02/2025 13:35:03</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>2</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            "
-76790823.1.0000.5262,"
-                            <p><b>Coorte Trans CCASAnet-Ásia-Pacífico</b></p> 
-                            <p>CAAE: 76790823.1.0000.5262</p> 
+38876820.0.0000.5262,"
+                            <p><b>Integração de Prevenção do HIV, Atendimento à Saúde Específico para Afirmação de Gênero e Navegação de Pares para Travestis e Mulheres Transexuais nas Américas: Um Estudo de Vanguarda.HPTN-091</b></p> 
+                            <p>CAAE: 38876820.0.0000.5262</p> 
                             <p>Pesquisador Responsável: EMILIA MOREIRA JALIL</p> 
                             
                             <table border=""1"" class=""dataframe"" style=""text-align: center""> 
@@ -581,10 +19,70 @@ CAAE,email_x,email_y
                             <tbody>
                     <tr>
                     <th>1</th> 
-                    <td>N5</td> 
-                    <td>28/04/2025 08:22:31</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>2</td> 
+                    <td>N119</td> 
+                    <td>28/04/2025 12:26:07</td> 
+                    <td>Notificação enviada</td> 
+                    <td>5</td> 
+                    <td>Pesquisador</td> 
+                    <td>PESQUISADOR</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>relatório final</td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>N118</td> 
+                    <td>14/04/2025 14:29:36</td> 
+                    <td>Parecer liberado</td> 
+                    <td>5</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>PESQUISADOR</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>3</th> 
+                    <td>N118</td> 
+                    <td>14/04/2025 10:19:02</td> 
+                    <td>Parecer do colegiado emitido</td> 
+                    <td>5</td> 
+                    <td>Membro do CEP</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>4</th> 
+                    <td>N118</td> 
+                    <td>13/04/2025 09:20:29</td> 
+                    <td>Parecer do relator emitido</td> 
+                    <td>5</td> 
+                    <td>Membro do CEP</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>5</th> 
+                    <td>N118</td> 
+                    <td>24/03/2025 09:31:12</td> 
+                    <td>Confirmação de Indicação de Relatoria</td> 
+                    <td>5</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>6</th> 
+                    <td>N118</td> 
+                    <td>24/03/2025 09:23:58</td> 
+                    <td>Indicação de Relatoria</td> 
+                    <td>5</td> 
                     <td>Secretária</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
@@ -592,118 +90,58 @@ CAAE,email_x,email_y
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
-                    <td>N5</td> 
-                    <td>22/04/2025 16:06:56</td> 
-                    <td>Notificação enviada</td> 
-                    <td>2</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>N4</td> 
-                    <td>14/04/2025 10:24:53</td> 
-                    <td>Notificação enviada</td> 
-                    <td>2</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Notificação do patrocinador referente a descontinu</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>N3</td> 
-                    <td>14/04/2025 09:25:58</td> 
-                    <td>Parecer liberado</td> 
-                    <td>2</td> 
-                    <td>Coordenador</td> 
-                    <td>CONEP</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>N3</td> 
-                    <td>11/04/2025 17:37:31</td> 
-                    <td>Parecer do Colegiado Editado</td> 
-                    <td>2</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>N3</td> 
-                    <td>11/04/2025 09:47:44</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>2</td> 
-                    <td>Administrador</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
                     <th>7</th> 
-                    <td>N3</td> 
-                    <td>10/04/2025 12:13:05</td> 
-                    <td>Parecer do colegiado liberado</td> 
-                    <td>2</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
+                    <td>N118</td> 
+                    <td>13/03/2025 07:59:19</td> 
+                    <td>Aceitação do PP</td> 
+                    <td>5</td> 
+                    <td>Secretária</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td></td>
                     </tr>
                     
                     <tr>
                     <th>8</th> 
-                    <td>N3</td> 
-                    <td>24/02/2025 16:42:12</td> 
-                    <td>Parecer do colegiado em análise</td> 
-                    <td>2</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
+                    <td>N118</td> 
+                    <td>12/03/2025 14:39:44</td> 
+                    <td>Notificação enviada</td> 
+                    <td>5</td> 
+                    <td>Pesquisador</td> 
+                    <td>PESQUISADOR</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Relatorio final</td>
                     </tr>
                     
                     <tr>
                     <th>9</th> 
-                    <td>N3</td> 
-                    <td>31/01/2025 17:24:16</td> 
-                    <td>Parecer do relator emitido</td> 
-                    <td>2</td> 
-                    <td>Membro do CEP</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
+                    <td>N117</td> 
+                    <td>16/01/2025 12:07:35</td> 
+                    <td>Aceitação do PP</td> 
+                    <td>5</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td></td>
                     </tr>
                     
                     <tr>
                     <th>10</th> 
-                    <td>N3</td> 
-                    <td>31/01/2025 17:23:38</td> 
-                    <td>Aceitação de Elaboração de Relatoria</td> 
-                    <td>2</td> 
-                    <td>Membro do CEP</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
+                    <td>N117</td> 
+                    <td>15/01/2025 13:22:43</td> 
+                    <td>Notificação enviada</td> 
+                    <td>5</td> 
+                    <td>Pesquisador</td> 
+                    <td>PESQUISADOR</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Notificação sobre a distribuição da carta aos part</td>
                     </tr>
                     </tbody> 
                             </table>
                             
                             ","
-                            <p><b>Coorte Trans CCASAnet-Ásia-Pacífico</b></p> 
-                            <p>CAAE: 76790823.1.0000.5262</p> 
+                            <p><b>Integração de Prevenção do HIV, Atendimento à Saúde Específico para Afirmação de Gênero e Navegação de Pares para Travestis e Mulheres Transexuais nas Américas: Um Estudo de Vanguarda.HPTN-091</b></p> 
+                            <p>CAAE: 38876820.0.0000.5262</p> 
                             <p>Pesquisador Responsável: EMILIA MOREIRA JALIL</p> 
                             
                             <table border=""1"" class=""dataframe"" style=""text-align: center""> 
@@ -721,187 +159,46 @@ CAAE,email_x,email_y
                             <tbody>
                     <tr>
                     <th>1</th> 
-                    <td>N5</td> 
-                    <td>22/04/2025 16:06:56</td> 
-                    <td>Notificação enviada</td> 
-                    <td>2</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
+                    <td>N118</td> 
+                    <td>14/04/2025 14:29:36</td> 
+                    <td>Parecer liberado</td> 
+                    <td>5</td> 
+                    <td>Coordenador</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>PESQUISADOR</td> 
                     <td></td>
                     </tr>
                     
                     <tr>
                     <th>2</th> 
-                    <td>N4</td> 
-                    <td>14/04/2025 10:24:53</td> 
-                    <td>Notificação enviada</td> 
-                    <td>2</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
+                    <td>N118</td> 
+                    <td>14/04/2025 10:19:02</td> 
+                    <td>Parecer do colegiado emitido</td> 
+                    <td>5</td> 
+                    <td>Membro do CEP</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Notificação do patrocinador referente a descontinu</td>
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
                     </tr>
                     
                     <tr>
                     <th>3</th> 
-                    <td>N3</td> 
-                    <td>14/04/2025 09:25:58</td> 
-                    <td>Parecer liberado</td> 
-                    <td>2</td> 
-                    <td>Coordenador</td> 
-                    <td>CONEP</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>N3</td> 
-                    <td>11/04/2025 17:37:31</td> 
-                    <td>Parecer do Colegiado Editado</td> 
-                    <td>2</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>N3</td> 
-                    <td>11/04/2025 09:47:44</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>2</td> 
-                    <td>Administrador</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>N3</td> 
-                    <td>10/04/2025 12:13:05</td> 
-                    <td>Parecer do colegiado liberado</td> 
-                    <td>2</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>7</th> 
-                    <td>N3</td> 
-                    <td>24/02/2025 16:42:12</td> 
-                    <td>Parecer do colegiado em análise</td> 
-                    <td>2</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>N3</td> 
-                    <td>31/01/2025 17:24:16</td> 
+                    <td>N118</td> 
+                    <td>13/04/2025 09:20:29</td> 
                     <td>Parecer do relator emitido</td> 
-                    <td>2</td> 
+                    <td>5</td> 
                     <td>Membro do CEP</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>N3</td> 
-                    <td>31/01/2025 17:23:38</td> 
-                    <td>Aceitação de Elaboração de Relatoria</td> 
-                    <td>2</td> 
-                    <td>Membro do CEP</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N3</td> 
-                    <td>17/01/2025 18:40:24</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>2</td> 
-                    <td>Administrador</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            "
-76794923.8.1001.5262,"
-                            <p><b>Estudo clínico randomizado, multicêntrico para avaliação da resposta imune humoral nas doses administradas da Vacina MVA-BN/Jynneos para Mpox</b></p> 
-                            <p>CAAE: 76794923.8.1001.5262</p> 
-                            <p>Pesquisador Responsável: Valdilea Gonçalves Veloso dos Santos</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>N2</td> 
-                    <td>28/04/2025 08:30:55</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>2</td> 
-                    <td>Coordenador</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>N2</td> 
-                    <td>17/04/2025 16:35:14</td> 
-                    <td>Notificação enviada</td> 
-                    <td>2</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Desvios ocorridos no estudo</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>N1</td> 
-                    <td>11/11/2024 14:53:56</td> 
-                    <td>Parecer liberado</td> 
-                    <td>2</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>PESQUISADOR</td> 
                     <td></td>
                     </tr>
                     
                     <tr>
                     <th>4</th> 
-                    <td>N1</td> 
-                    <td>11/11/2024 14:53:17</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>2</td> 
+                    <td>N118</td> 
+                    <td>24/03/2025 09:31:12</td> 
+                    <td>Confirmação de Indicação de Relatoria</td> 
+                    <td>5</td> 
                     <td>Coordenador</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
@@ -910,151 +207,11 @@ CAAE,email_x,email_y
                     
                     <tr>
                     <th>5</th> 
-                    <td>N1</td> 
-                    <td>06/11/2024 11:52:05</td> 
-                    <td>Parecer do relator emitido</td> 
-                    <td>2</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>N1</td> 
-                    <td>06/11/2024 11:46:26</td> 
-                    <td>Aceitação de Elaboração de Relatoria</td> 
-                    <td>2</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>7</th> 
-                    <td>N1</td> 
-                    <td>22/10/2024 10:02:41</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>2</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>N1</td> 
-                    <td>22/10/2024 09:57:12</td> 
+                    <td>N118</td> 
+                    <td>24/03/2025 09:23:58</td> 
                     <td>Indicação de Relatoria</td> 
-                    <td>2</td> 
+                    <td>5</td> 
                     <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>N1</td> 
-                    <td>18/10/2024 07:57:08</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>2</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N1</td> 
-                    <td>17/10/2024 15:45:13</td> 
-                    <td>Notificação enviada</td> 
-                    <td>2</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            ","
-                            <p><b>Estudo clínico randomizado, multicêntrico para avaliação da resposta imune humoral nas doses administradas da Vacina MVA-BN/Jynneos para Mpox</b></p> 
-                            <p>CAAE: 76794923.8.1001.5262</p> 
-                            <p>Pesquisador Responsável: Valdilea Gonçalves Veloso dos Santos</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>N2</td> 
-                    <td>17/04/2025 16:35:14</td> 
-                    <td>Notificação enviada</td> 
-                    <td>2</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Desvios ocorridos no estudo</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>N1</td> 
-                    <td>11/11/2024 14:53:56</td> 
-                    <td>Parecer liberado</td> 
-                    <td>2</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>N1</td> 
-                    <td>11/11/2024 14:53:17</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>2</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>N1</td> 
-                    <td>06/11/2024 11:52:05</td> 
-                    <td>Parecer do relator emitido</td> 
-                    <td>2</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>N1</td> 
-                    <td>06/11/2024 11:46:26</td> 
-                    <td>Aceitação de Elaboração de Relatoria</td> 
-                    <td>2</td> 
-                    <td>Membro do CEP</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td></td>
@@ -1062,11 +219,11 @@ CAAE,email_x,email_y
                     
                     <tr>
                     <th>6</th> 
-                    <td>N1</td> 
-                    <td>22/10/2024 10:02:41</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>2</td> 
-                    <td>Coordenador</td> 
+                    <td>N118</td> 
+                    <td>13/03/2025 07:59:19</td> 
+                    <td>Aceitação do PP</td> 
+                    <td>5</td> 
+                    <td>Secretária</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td></td>
@@ -1074,23 +231,23 @@ CAAE,email_x,email_y
                     
                     <tr>
                     <th>7</th> 
-                    <td>N1</td> 
-                    <td>22/10/2024 09:57:12</td> 
-                    <td>Indicação de Relatoria</td> 
-                    <td>2</td> 
-                    <td>Secretária</td> 
+                    <td>N118</td> 
+                    <td>12/03/2025 14:39:44</td> 
+                    <td>Notificação enviada</td> 
+                    <td>5</td> 
+                    <td>Pesquisador</td> 
+                    <td>PESQUISADOR</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
+                    <td>Relatorio final</td>
                     </tr>
                     
                     <tr>
                     <th>8</th> 
-                    <td>N1</td> 
-                    <td>18/10/2024 07:57:08</td> 
+                    <td>N117</td> 
+                    <td>16/01/2025 12:07:35</td> 
                     <td>Aceitação do PP</td> 
-                    <td>2</td> 
-                    <td>Secretária</td> 
+                    <td>5</td> 
+                    <td>Coordenador</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td></td>
@@ -1098,22 +255,22 @@ CAAE,email_x,email_y
                     
                     <tr>
                     <th>9</th> 
-                    <td>N1</td> 
-                    <td>17/10/2024 15:45:13</td> 
+                    <td>N117</td> 
+                    <td>15/01/2025 13:22:43</td> 
                     <td>Notificação enviada</td> 
-                    <td>2</td> 
+                    <td>5</td> 
                     <td>Pesquisador</td> 
                     <td>PESQUISADOR</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
+                    <td>Notificação sobre a distribuição da carta aos part</td>
                     </tr>
                     
                     <tr>
                     <th>10</th> 
-                    <td>PO</td> 
-                    <td>12/04/2024 05:50:32</td> 
+                    <td>N116</td> 
+                    <td>16/12/2024 12:09:53</td> 
                     <td>Parecer liberado</td> 
-                    <td>2</td> 
+                    <td>5</td> 
                     <td>Coordenador</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>PESQUISADOR</td> 
@@ -1124,6 +281,146 @@ CAAE,email_x,email_y
                             
                             "
 86623025.7.1001.5262,"
+                            <p><b>A5389 - Um Estudo de Fase I para Avaliar Segurança e Atividade Antiviral de Dois Anticorpos Monoclonais Humanos (VRC07-523LS e PGT121.414.LS) Durante Interrupção Analítica de Tratamento em Participantes Vivendo com HIV que Iniciaram a TARV Durante Infecção Aguda pelo HIV-1</b></p> 
+                            <p>CAAE: 86623025.7.1001.5262</p> 
+                            <p>Pesquisador Responsável: Sandra Wagner Cardoso</p> 
+                            
+                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
+                            <thead><tr> 
+                            <th></th> 
+                            <th>Apreciação</th> 
+                            <th>Data/Hora</th> 
+                            <th>Tipo Trâmite</th> 
+                            <th>Versão</th> 
+                            <th>Perfil</th> 
+                            <th>Origem</th> 
+                            <th>Destino</th> 
+                            <th>Informações</th> 
+                            </tr></thead> 
+                            <tbody>
+                    <tr>
+                    <th>1</th> 
+                    <td>PO</td> 
+                    <td>28/04/2025 12:22:55</td> 
+                    <td>Submetido para avaliação do CEP</td> 
+                    <td>2</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>PO</td> 
+                    <td>28/04/2025 12:22:55</td> 
+                    <td>Parecer liberado</td> 
+                    <td>2</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>3</th> 
+                    <td>PO</td> 
+                    <td>28/04/2025 12:22:24</td> 
+                    <td>Parecer do colegiado emitido</td> 
+                    <td>2</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>4</th> 
+                    <td>PO</td> 
+                    <td>28/04/2025 00:07:08</td> 
+                    <td>Parecer do relator emitido</td> 
+                    <td>2</td> 
+                    <td>Membro do CEP</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>5</th> 
+                    <td>PO</td> 
+                    <td>14/04/2025 08:28:08</td> 
+                    <td>Aceitação de Elaboração de Relatoria</td> 
+                    <td>2</td> 
+                    <td>Membro do CEP</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>6</th> 
+                    <td>PO</td> 
+                    <td>03/04/2025 17:49:36</td> 
+                    <td>Confirmação de Indicação de Relatoria</td> 
+                    <td>2</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>7</th> 
+                    <td>PO</td> 
+                    <td>31/03/2025 13:20:46</td> 
+                    <td>Indicação de Relatoria</td> 
+                    <td>2</td> 
+                    <td>Secretária</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>8</th> 
+                    <td>PO</td> 
+                    <td>31/03/2025 13:20:15</td> 
+                    <td>Aceitação do PP</td> 
+                    <td>2</td> 
+                    <td>Secretária</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>9</th> 
+                    <td>PO</td> 
+                    <td>28/03/2025 16:12:25</td> 
+                    <td>Submetido para avaliação do CEP</td> 
+                    <td>2</td> 
+                    <td>Assistente da Pesquisa</td> 
+                    <td>PESQUISADOR</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>10</th> 
+                    <td>PO</td> 
+                    <td>21/03/2025 14:44:18</td> 
+                    <td>Parecer liberado</td> 
+                    <td>1</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>PESQUISADOR</td> 
+                    <td></td>
+                    </tr>
+                    </tbody> 
+                            </table>
+                            
+                            ","
                             <p><b>A5389 - Um Estudo de Fase I para Avaliar Segurança e Atividade Antiviral de Dois Anticorpos Monoclonais Humanos (VRC07-523LS e PGT121.414.LS) Durante Interrupção Analítica de Tratamento em Participantes Vivendo com HIV que Iniciaram a TARV Durante Infecção Aguda pelo HIV-1</b></p> 
                             <p>CAAE: 86623025.7.1001.5262</p> 
                             <p>Pesquisador Responsável: Sandra Wagner Cardoso</p> 
@@ -1256,146 +553,6 @@ CAAE,email_x,email_y
                     <td>Aceitação de Elaboração de Relatoria</td> 
                     <td>1</td> 
                     <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            ","
-                            <p><b>A5389 - Um Estudo de Fase I para Avaliar Segurança e Atividade Antiviral de Dois Anticorpos Monoclonais Humanos (VRC07-523LS e PGT121.414.LS) Durante Interrupção Analítica de Tratamento em Participantes Vivendo com HIV que Iniciaram a TARV Durante Infecção Aguda pelo HIV-1</b></p> 
-                            <p>CAAE: 86623025.7.1001.5262</p> 
-                            <p>Pesquisador Responsável: Sandra Wagner Cardoso</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>PO</td> 
-                    <td>14/04/2025 08:28:08</td> 
-                    <td>Aceitação de Elaboração de Relatoria</td> 
-                    <td>2</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>PO</td> 
-                    <td>03/04/2025 17:49:36</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>2</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>PO</td> 
-                    <td>31/03/2025 13:20:46</td> 
-                    <td>Indicação de Relatoria</td> 
-                    <td>2</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>PO</td> 
-                    <td>31/03/2025 13:20:15</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>2</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>PO</td> 
-                    <td>28/03/2025 16:12:25</td> 
-                    <td>Submetido para avaliação do CEP</td> 
-                    <td>2</td> 
-                    <td>Assistente da Pesquisa</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>PO</td> 
-                    <td>21/03/2025 14:44:18</td> 
-                    <td>Parecer liberado</td> 
-                    <td>1</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>7</th> 
-                    <td>PO</td> 
-                    <td>21/03/2025 14:43:53</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>1</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>PO</td> 
-                    <td>21/03/2025 09:25:37</td> 
-                    <td>Parecer do relator emitido</td> 
-                    <td>1</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>PO</td> 
-                    <td>20/03/2025 22:52:31</td> 
-                    <td>Aceitação de Elaboração de Relatoria</td> 
-                    <td>1</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>PO</td> 
-                    <td>27/02/2025 10:18:17</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>1</td> 
-                    <td>Coordenador</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td></td>
