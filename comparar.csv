@@ -20,6 +20,146 @@ CAAE,email_x,email_y
                     <tr>
                     <th>1</th> 
                     <td>E6</td> 
+                    <td>06/05/2025 16:15:41</td> 
+                    <td>Confirmação de Indicação de Relatoria</td> 
+                    <td>15</td> 
+                    <td>Administrador</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>E6</td> 
+                    <td>06/05/2025 14:07:29</td> 
+                    <td>Indicação de Relatoria</td> 
+                    <td>15</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>3</th> 
+                    <td>E6</td> 
+                    <td>06/05/2025 14:04:38</td> 
+                    <td>Nota Técnica Liberada</td> 
+                    <td>15</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>4</th> 
+                    <td>E6</td> 
+                    <td>06/05/2025 11:26:46</td> 
+                    <td>Nota Técnica em Análise</td> 
+                    <td>15</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>5</th> 
+                    <td>E6</td> 
+                    <td>06/05/2025 11:26:43</td> 
+                    <td>Aceitação do PP</td> 
+                    <td>15</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>6</th> 
+                    <td>E6</td> 
+                    <td>06/05/2025 11:25:47</td> 
+                    <td>Aceitação do PP</td> 
+                    <td>15</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>7</th> 
+                    <td>E6</td> 
+                    <td>30/04/2025 16:46:00</td> 
+                    <td>Submetido para avaliação do CEP</td> 
+                    <td>15</td> 
+                    <td>Assistente da Pesquisa</td> 
+                    <td>PESQUISADOR</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>8</th> 
+                    <td>N33</td> 
+                    <td>28/04/2025 17:49:40</td> 
+                    <td>Aceitação do PP</td> 
+                    <td>13</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>9</th> 
+                    <td>N34</td> 
+                    <td>28/04/2025 12:02:55</td> 
+                    <td>Notificação enviada</td> 
+                    <td>13</td> 
+                    <td>Pesquisador</td> 
+                    <td>PESQUISADOR</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>85_DESVIO_GS_US_528_9023_Purpose_2_2024_11_23</td>
+                    </tr>
+                    
+                    <tr>
+                    <th>10</th> 
+                    <td>N33</td> 
+                    <td>28/04/2025 12:01:39</td> 
+                    <td>Notificação enviada</td> 
+                    <td>13</td> 
+                    <td>Pesquisador</td> 
+                    <td>PESQUISADOR</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>84_DESVIO_GS_US_528_9023_Purpose_2_2025_04_07</td>
+                    </tr>
+                    </tbody> 
+                            </table>
+                            
+                            ","
+                            <p><b>GS-US-528-9023 - Estudo de fase 3, duplo-cego, multicêntrico, randomizado para avaliar a eficácia e segurança de lenacapavir de longa duração por via subcutânea, duas vezes ao ano, para profilaxia pré-exposição ao HIV em homens cisgêneros, mulheres transgêneros, homens transgêneros e pessoas de gênero não binário maior igual a 16 anos de idade que têm relação sexual com parceiros do sexo masculino e apresentam risco de infecção por HIV</b></p> 
+                            <p>CAAE: 46291521.6.1001.5262</p> 
+                            <p>Pesquisador Responsável: Beatriz Grinsztejn</p> 
+                            
+                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
+                            <thead><tr> 
+                            <th></th> 
+                            <th>Apreciação</th> 
+                            <th>Data/Hora</th> 
+                            <th>Tipo Trâmite</th> 
+                            <th>Versão</th> 
+                            <th>Perfil</th> 
+                            <th>Origem</th> 
+                            <th>Destino</th> 
+                            <th>Informações</th> 
+                            </tr></thead> 
+                            <tbody>
+                    <tr>
+                    <th>1</th> 
+                    <td>E6</td> 
                     <td>06/05/2025 11:26:46</td> 
                     <td>Nota Técnica em Análise</td> 
                     <td>15</td> 
@@ -134,921 +274,6 @@ CAAE,email_x,email_y
                     <td>Coordenador</td> 
                     <td>CONEP</td> 
                     <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            ","
-                            <p><b>GS-US-528-9023 - Estudo de fase 3, duplo-cego, multicêntrico, randomizado para avaliar a eficácia e segurança de lenacapavir de longa duração por via subcutânea, duas vezes ao ano, para profilaxia pré-exposição ao HIV em homens cisgêneros, mulheres transgêneros, homens transgêneros e pessoas de gênero não binário maior igual a 16 anos de idade que têm relação sexual com parceiros do sexo masculino e apresentam risco de infecção por HIV</b></p> 
-                            <p>CAAE: 46291521.6.1001.5262</p> 
-                            <p>Pesquisador Responsável: Beatriz Grinsztejn</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>E6</td> 
-                    <td>30/04/2025 16:46:00</td> 
-                    <td>Submetido para avaliação do CEP</td> 
-                    <td>15</td> 
-                    <td>Assistente da Pesquisa</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>N33</td> 
-                    <td>28/04/2025 17:49:40</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>13</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>N34</td> 
-                    <td>28/04/2025 12:02:55</td> 
-                    <td>Notificação enviada</td> 
-                    <td>13</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>85_DESVIO_GS_US_528_9023_Purpose_2_2024_11_23</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>N33</td> 
-                    <td>28/04/2025 12:01:39</td> 
-                    <td>Notificação enviada</td> 
-                    <td>13</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>84_DESVIO_GS_US_528_9023_Purpose_2_2025_04_07</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>N32</td> 
-                    <td>11/04/2025 12:28:12</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>13</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>N31</td> 
-                    <td>11/04/2025 12:25:38</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>13</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>7</th> 
-                    <td>E6</td> 
-                    <td>07/04/2025 19:04:36</td> 
-                    <td>Parecer liberado</td> 
-                    <td>14</td> 
-                    <td>Coordenador</td> 
-                    <td>CONEP</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>E6</td> 
-                    <td>02/04/2025 23:34:11</td> 
-                    <td>Parecer do Colegiado Editado</td> 
-                    <td>14</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>N32</td> 
-                    <td>02/04/2025 11:50:46</td> 
-                    <td>Notificação enviada</td> 
-                    <td>13</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>59_DESVIO_Purpose2_2025_1_27</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N31</td> 
-                    <td>02/04/2025 11:48:50</td> 
-                    <td>Notificação enviada</td> 
-                    <td>13</td> 
-                    <td>Pesquisador</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>58_DESVIO_Purpose2_2025_1_27</td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            "
-79947824.2.1001.5262,"
-                            <p><b>A5385 - Coorte de Observação de Controle Pós-Intervenção</b></p> 
-                            <p>CAAE: 79947824.2.1001.5262</p> 
-                            <p>Pesquisador Responsável: Sandra Wagner Cardoso</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>PO</td> 
-                    <td>06/05/2025 10:17:34</td> 
-                    <td>Parecer liberado</td> 
-                    <td>4</td> 
-                    <td>Coordenador</td> 
-                    <td>CONEP</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>PO</td> 
-                    <td>05/05/2025 09:36:13</td> 
-                    <td>Parecer do Colegiado Editado</td> 
-                    <td>4</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>PO</td> 
-                    <td>29/04/2025 10:37:13</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>4</td> 
-                    <td>Administrador</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>PO</td> 
-                    <td>28/04/2025 23:56:13</td> 
-                    <td>Parecer do colegiado liberado</td> 
-                    <td>4</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>PO</td> 
-                    <td>24/04/2025 14:54:24</td> 
-                    <td>Parecer do colegiado em análise</td> 
-                    <td>4</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>PO</td> 
-                    <td>23/04/2025 20:51:37</td> 
-                    <td>Parecer do relator emitido</td> 
-                    <td>4</td> 
-                    <td>Membro do CEP</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>7</th> 
-                    <td>PO</td> 
-                    <td>23/04/2025 20:50:00</td> 
-                    <td>Aceitação de Elaboração de Relatoria</td> 
-                    <td>4</td> 
-                    <td>Membro do CEP</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>PO</td> 
-                    <td>22/04/2025 12:40:18</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>4</td> 
-                    <td>Administrador</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>PO</td> 
-                    <td>22/04/2025 10:50:37</td> 
-                    <td>Indicação de Relatoria</td> 
-                    <td>4</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>PO</td> 
-                    <td>22/04/2025 10:49:55</td> 
-                    <td>Nota Técnica Liberada</td> 
-                    <td>4</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            ","
-                            <p><b>A5385 - Coorte de Observação de Controle Pós-Intervenção</b></p> 
-                            <p>CAAE: 79947824.2.1001.5262</p> 
-                            <p>Pesquisador Responsável: Sandra Wagner Cardoso</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>PO</td> 
-                    <td>05/05/2025 09:36:13</td> 
-                    <td>Parecer do Colegiado Editado</td> 
-                    <td>4</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>PO</td> 
-                    <td>29/04/2025 10:37:13</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>4</td> 
-                    <td>Administrador</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>PO</td> 
-                    <td>28/04/2025 23:56:13</td> 
-                    <td>Parecer do colegiado liberado</td> 
-                    <td>4</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>PO</td> 
-                    <td>24/04/2025 14:54:24</td> 
-                    <td>Parecer do colegiado em análise</td> 
-                    <td>4</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>PO</td> 
-                    <td>23/04/2025 20:51:37</td> 
-                    <td>Parecer do relator emitido</td> 
-                    <td>4</td> 
-                    <td>Membro do CEP</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>PO</td> 
-                    <td>23/04/2025 20:50:00</td> 
-                    <td>Aceitação de Elaboração de Relatoria</td> 
-                    <td>4</td> 
-                    <td>Membro do CEP</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>7</th> 
-                    <td>PO</td> 
-                    <td>22/04/2025 12:40:18</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>4</td> 
-                    <td>Administrador</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>PO</td> 
-                    <td>22/04/2025 10:50:37</td> 
-                    <td>Indicação de Relatoria</td> 
-                    <td>4</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>PO</td> 
-                    <td>22/04/2025 10:49:55</td> 
-                    <td>Nota Técnica Liberada</td> 
-                    <td>4</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>PO</td> 
-                    <td>22/04/2025 07:56:51</td> 
-                    <td>Nota Técnica em Análise</td> 
-                    <td>4</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            "
-85490524.2.1001.5262,"
-                            <p><b>Avaliação da relevância terapêutica de uma nova estratégia de vacinação que tem como alvo o Mycobacterium tuberculosis persistente, RelMtb, em pessoas que vivem com HIV/AIDS inscritos nos Protocolos ACTG A5290 e A5221 - NWCS577</b></p> 
-                            <p>CAAE: 85490524.2.1001.5262</p> 
-                            <p>Pesquisador Responsável: Valdilea Gonçalves Veloso dos Santos</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>PO</td> 
-                    <td>06/05/2025 11:09:12</td> 
-                    <td>Parecer liberado</td> 
-                    <td>3</td> 
-                    <td>Coordenador</td> 
-                    <td>CONEP</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>PO</td> 
-                    <td>05/05/2025 12:32:04</td> 
-                    <td>Parecer do Colegiado Editado</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>PO</td> 
-                    <td>29/04/2025 10:36:50</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>3</td> 
-                    <td>Administrador</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>PO</td> 
-                    <td>29/04/2025 09:45:40</td> 
-                    <td>Parecer do colegiado liberado</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>PO</td> 
-                    <td>24/04/2025 14:41:46</td> 
-                    <td>Parecer do colegiado em análise</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>PO</td> 
-                    <td>24/04/2025 14:39:36</td> 
-                    <td>Reserva retirada</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td>Reserva do parecer do colegiado retirada pelo Asse</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>7</th> 
-                    <td>PO</td> 
-                    <td>24/04/2025 14:10:19</td> 
-                    <td>Parecer do colegiado em análise</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>PO</td> 
-                    <td>24/04/2025 11:47:12</td> 
-                    <td>Reserva retirada</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td>Reserva do parecer do colegiado retirada pelo Asse</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>PO</td> 
-                    <td>24/04/2025 11:38:11</td> 
-                    <td>Parecer do colegiado em análise</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>PO</td> 
-                    <td>23/04/2025 20:32:00</td> 
-                    <td>Parecer do relator emitido</td> 
-                    <td>3</td> 
-                    <td>Membro do CEP</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            ","
-                            <p><b>Avaliação da relevância terapêutica de uma nova estratégia de vacinação que tem como alvo o Mycobacterium tuberculosis persistente, RelMtb, em pessoas que vivem com HIV/AIDS inscritos nos Protocolos ACTG A5290 e A5221 - NWCS577</b></p> 
-                            <p>CAAE: 85490524.2.1001.5262</p> 
-                            <p>Pesquisador Responsável: Valdilea Gonçalves Veloso dos Santos</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>PO</td> 
-                    <td>05/05/2025 12:32:04</td> 
-                    <td>Parecer do Colegiado Editado</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>PO</td> 
-                    <td>29/04/2025 10:36:50</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>3</td> 
-                    <td>Administrador</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>PO</td> 
-                    <td>29/04/2025 09:45:40</td> 
-                    <td>Parecer do colegiado liberado</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>PO</td> 
-                    <td>24/04/2025 14:41:46</td> 
-                    <td>Parecer do colegiado em análise</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>PO</td> 
-                    <td>24/04/2025 14:39:36</td> 
-                    <td>Reserva retirada</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td>Reserva do parecer do colegiado retirada pelo Asse</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>PO</td> 
-                    <td>24/04/2025 14:10:19</td> 
-                    <td>Parecer do colegiado em análise</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>7</th> 
-                    <td>PO</td> 
-                    <td>24/04/2025 11:47:12</td> 
-                    <td>Reserva retirada</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td>Reserva do parecer do colegiado retirada pelo Asse</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>PO</td> 
-                    <td>24/04/2025 11:38:11</td> 
-                    <td>Parecer do colegiado em análise</td> 
-                    <td>3</td> 
-                    <td>Assessor</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>PO</td> 
-                    <td>23/04/2025 20:32:00</td> 
-                    <td>Parecer do relator emitido</td> 
-                    <td>3</td> 
-                    <td>Membro do CEP</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>PO</td> 
-                    <td>23/04/2025 20:26:07</td> 
-                    <td>Aceitação de Elaboração de Relatoria</td> 
-                    <td>3</td> 
-                    <td>Membro do CEP</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            "
-87364325.3.0000.5262,"
-                            <p><b>Promoção do acesso à Prevenção Combinada ao HIV em serviços de saúde para pessoas trans e não bináries no Brasil</b></p> 
-                            <p>CAAE: 87364325.3.0000.5262</p> 
-                            <p>Pesquisador Responsável: Brenda Regina de Siqueira Hoagland</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>PO</td> 
-                    <td>06/05/2025 11:58:36</td> 
-                    <td>Parecer do relator emitido</td> 
-                    <td>1</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>PO</td> 
-                    <td>06/05/2025 11:41:11</td> 
-                    <td>Aceitação de Elaboração de Relatoria</td> 
-                    <td>1</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>PO</td> 
-                    <td>27/03/2025 19:22:17</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>1</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>PO</td> 
-                    <td>27/03/2025 16:23:50</td> 
-                    <td>Indicação de Relatoria</td> 
-                    <td>1</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>PO</td> 
-                    <td>27/03/2025 16:23:13</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>1</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>PO</td> 
-                    <td>25/03/2025 10:32:29</td> 
-                    <td>Submetido para avaliação do CEP</td> 
-                    <td>1</td> 
-                    <td>Assistente da Pesquisa</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>7</th> 
-                    <td>PO</td> 
-                    <td>25/03/2025 09:47:40</td> 
-                    <td>Rejeição do PP</td> 
-                    <td>1</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Prezada,
-
-Como o projeto não aplicará TCLE. Solici</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>PO</td> 
-                    <td>21/03/2025 16:13:59</td> 
-                    <td>Submetido para avaliação do CEP</td> 
-                    <td>1</td> 
-                    <td>Assistente da Pesquisa</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    </tbody> 
-                            </table>
-                            
-                            ","
-                            <p><b>Promoção do acesso à Prevenção Combinada ao HIV em serviços de saúde para pessoas trans e não bináries no Brasil</b></p> 
-                            <p>CAAE: 87364325.3.0000.5262</p> 
-                            <p>Pesquisador Responsável: Brenda Regina de Siqueira Hoagland</p> 
-                            
-                            <table border=""1"" class=""dataframe"" style=""text-align: center""> 
-                            <thead><tr> 
-                            <th></th> 
-                            <th>Apreciação</th> 
-                            <th>Data/Hora</th> 
-                            <th>Tipo Trâmite</th> 
-                            <th>Versão</th> 
-                            <th>Perfil</th> 
-                            <th>Origem</th> 
-                            <th>Destino</th> 
-                            <th>Informações</th> 
-                            </tr></thead> 
-                            <tbody>
-                    <tr>
-                    <th>1</th> 
-                    <td>PO</td> 
-                    <td>27/03/2025 19:22:17</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>1</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>2</th> 
-                    <td>PO</td> 
-                    <td>27/03/2025 16:23:50</td> 
-                    <td>Indicação de Relatoria</td> 
-                    <td>1</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>3</th> 
-                    <td>PO</td> 
-                    <td>27/03/2025 16:23:13</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>1</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>4</th> 
-                    <td>PO</td> 
-                    <td>25/03/2025 10:32:29</td> 
-                    <td>Submetido para avaliação do CEP</td> 
-                    <td>1</td> 
-                    <td>Assistente da Pesquisa</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>5</th> 
-                    <td>PO</td> 
-                    <td>25/03/2025 09:47:40</td> 
-                    <td>Rejeição do PP</td> 
-                    <td>1</td> 
-                    <td>Secretária</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Prezada,
-
-Como o projeto não aplicará TCLE. Solici</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>6</th> 
-                    <td>PO</td> 
-                    <td>21/03/2025 16:13:59</td> 
-                    <td>Submetido para avaliação do CEP</td> 
-                    <td>1</td> 
-                    <td>Assistente da Pesquisa</td> 
-                    <td>PESQUISADOR</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td></td>
                     </tr>
                     </tbody> 
