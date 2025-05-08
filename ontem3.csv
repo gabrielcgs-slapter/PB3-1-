@@ -2845,6 +2845,42 @@ Att.,</td>
                     <tr>
                     <th>1</th> 
                     <td>E6</td> 
+                    <td>06/05/2025 16:15:41</td> 
+                    <td>Confirmação de Indicação de Relatoria</td> 
+                    <td>15</td> 
+                    <td>Administrador</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>E6</td> 
+                    <td>06/05/2025 14:07:29</td> 
+                    <td>Indicação de Relatoria</td> 
+                    <td>15</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>3</th> 
+                    <td>E6</td> 
+                    <td>06/05/2025 14:04:38</td> 
+                    <td>Nota Técnica Liberada</td> 
+                    <td>15</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>4</th> 
+                    <td>E6</td> 
                     <td>06/05/2025 11:26:46</td> 
                     <td>Nota Técnica em Análise</td> 
                     <td>15</td> 
@@ -2855,7 +2891,7 @@ Att.,</td>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>5</th> 
                     <td>E6</td> 
                     <td>06/05/2025 11:26:43</td> 
                     <td>Aceitação do PP</td> 
@@ -2867,7 +2903,7 @@ Att.,</td>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>6</th> 
                     <td>E6</td> 
                     <td>06/05/2025 11:25:47</td> 
                     <td>Aceitação do PP</td> 
@@ -2879,7 +2915,7 @@ Att.,</td>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>7</th> 
                     <td>E6</td> 
                     <td>30/04/2025 16:46:00</td> 
                     <td>Submetido para avaliação do CEP</td> 
@@ -2891,7 +2927,7 @@ Att.,</td>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>8</th> 
                     <td>N33</td> 
                     <td>28/04/2025 17:49:40</td> 
                     <td>Aceitação do PP</td> 
@@ -2903,7 +2939,7 @@ Att.,</td>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>9</th> 
                     <td>N34</td> 
                     <td>28/04/2025 12:02:55</td> 
                     <td>Notificação enviada</td> 
@@ -2915,7 +2951,7 @@ Att.,</td>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>10</th> 
                     <td>N33</td> 
                     <td>28/04/2025 12:01:39</td> 
                     <td>Notificação enviada</td> 
@@ -2924,42 +2960,6 @@ Att.,</td>
                     <td>PESQUISADOR</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>84_DESVIO_GS_US_528_9023_Purpose_2_2025_04_07</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>N32</td> 
-                    <td>11/04/2025 12:28:12</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>13</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>N31</td> 
-                    <td>11/04/2025 12:25:38</td> 
-                    <td>Aceitação do PP</td> 
-                    <td>13</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>E6</td> 
-                    <td>07/04/2025 19:04:36</td> 
-                    <td>Parecer liberado</td> 
-                    <td>14</td> 
-                    <td>Coordenador</td> 
-                    <td>CONEP</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
                     </tr>
                     </tbody> 
                             </table>
