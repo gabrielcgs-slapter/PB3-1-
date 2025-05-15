@@ -1148,6 +1148,18 @@ CAAE,email
                     <tr>
                     <th>1</th> 
                     <td>N48</td> 
+                    <td>15/05/2025 09:48:00</td> 
+                    <td>Parecer do colegiado emitido</td> 
+                    <td>10</td> 
+                    <td>Membro do CEP</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>N48</td> 
                     <td>08/05/2025 11:11:00</td> 
                     <td>Parecer do relator emitido</td> 
                     <td>10</td> 
@@ -1158,7 +1170,7 @@ CAAE,email
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>N48</td> 
                     <td>16/04/2025 06:24:02</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
@@ -1170,7 +1182,7 @@ CAAE,email
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>4</th> 
                     <td>N48</td> 
                     <td>15/04/2025 11:51:16</td> 
                     <td>Indicação de Relatoria</td> 
@@ -1182,7 +1194,7 @@ CAAE,email
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>5</th> 
                     <td>N47</td> 
                     <td>14/04/2025 14:27:54</td> 
                     <td>Parecer liberado</td> 
@@ -1194,7 +1206,7 @@ CAAE,email
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>6</th> 
                     <td>N47</td> 
                     <td>11/04/2025 13:15:12</td> 
                     <td>Parecer do colegiado emitido</td> 
@@ -1206,7 +1218,7 @@ CAAE,email
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>7</th> 
                     <td>N48</td> 
                     <td>11/04/2025 09:04:30</td> 
                     <td>Aceitação do PP</td> 
@@ -1218,7 +1230,7 @@ CAAE,email
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>8</th> 
                     <td>N48</td> 
                     <td>04/04/2025 14:33:11</td> 
                     <td>Notificação enviada</td> 
@@ -1230,7 +1242,7 @@ CAAE,email
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>9</th> 
                     <td>N47</td> 
                     <td>01/04/2025 15:20:45</td> 
                     <td>Parecer do relator emitido</td> 
@@ -1242,24 +1254,12 @@ CAAE,email
                     </tr>
                     
                     <tr>
-                    <th>9</th> 
+                    <th>10</th> 
                     <td>N47</td> 
                     <td>26/02/2025 10:30:05</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
                     <td>10</td> 
                     <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N47</td> 
-                    <td>26/02/2025 06:37:19</td> 
-                    <td>Indicação de Relatoria</td> 
-                    <td>10</td> 
-                    <td>Secretária</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td></td>
@@ -11673,6 +11673,30 @@ Como o projeto não aplicará TCLE. Solici</td>
                     <tr>
                     <th>1</th> 
                     <td>PO</td> 
+                    <td>15/05/2025 09:21:58</td> 
+                    <td>Parecer liberado</td> 
+                    <td>1</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>PESQUISADOR</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>PO</td> 
+                    <td>15/05/2025 09:15:11</td> 
+                    <td>Parecer do Colegiado Editado</td> 
+                    <td>1</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>3</th> 
+                    <td>PO</td> 
                     <td>14/05/2025 08:30:39</td> 
                     <td>Parecer do colegiado emitido</td> 
                     <td>1</td> 
@@ -11683,7 +11707,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>4</th> 
                     <td>PO</td> 
                     <td>12/05/2025 23:36:16</td> 
                     <td>Parecer do relator emitido</td> 
@@ -11695,7 +11719,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>5</th> 
                     <td>PO</td> 
                     <td>09/05/2025 10:15:17</td> 
                     <td>Aceitação de Elaboração de Relatoria</td> 
@@ -11707,7 +11731,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>6</th> 
                     <td>PO</td> 
                     <td>17/04/2025 15:27:21</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
@@ -11719,7 +11743,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>7</th> 
                     <td>PO</td> 
                     <td>16/04/2025 13:09:33</td> 
                     <td>Indicação de Relatoria</td> 
@@ -11731,7 +11755,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>8</th> 
                     <td>PO</td> 
                     <td>14/04/2025 15:33:58</td> 
                     <td>Aceitação do PP</td> 
@@ -11743,7 +11767,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>9</th> 
                     <td>PO</td> 
                     <td>10/04/2025 09:58:38</td> 
                     <td>Submetido para avaliação do CEP</td> 
