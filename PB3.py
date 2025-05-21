@@ -18,6 +18,7 @@ import smtplib
 import email.message
 import psutil
 import re
+import numpy as np
 
 #destinatário = 'gabriel.calazans@ini.fiocruz.br'
 destinatário = 'regulatorios@ini.fiocruz.br'
@@ -42,14 +43,14 @@ for proc in psutil.process_iter(attrs=["pid", "name"]):
 
             
 options = Options()
-options.add_argument("--disable-gpu")  # Desativa GPU para melhorar desempenho
+#options.add_argument("--disable-gpu")  # Desativa GPU para melhorar desempenho
 options.add_argument("--no-sandbox")  # Evita problemas de permissão
 options.add_argument("--disable-dev-shm-usage")  # Melhora estabilidade
 options.add_argument("--blink-settings=imagesEnabled=false")  # Desativa imagens
 options.add_argument("--disable-extensions")  # Desativa extensões
 options.add_argument("--disable-popup-blocking")  # Evita bloqueios de pop-up
 options.add_argument("--disable-infobars")  # Remove barra de informações do Chrome
-options.add_argument("--headless")  # Modo headless (opcional)
+#options.add_argument("--headless")  # Modo headless (opcional)
 service = Service(ChromeDriverManager().install())
 
 data_hora0 = datetime.datetime.now(timezone)
@@ -82,7 +83,7 @@ while True:
         
     try:
         valid_login = driver.find_element(By.XPATH,"/html/body/div[2]/div/div[4]/div").text
-        print(valid_login)
+        #print(valid_login)
         if "sessão" in valid_login:
             break
     except:
@@ -152,27 +153,27 @@ for i in CAAE:
                     o += 1
 
             time.sleep(5)
+
             
             soup = BeautifulSoup(driver.page_source, 'html.parser')
             
-            
             wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() #voltar ao menu
-            
-            
-            nome_estudo = soup.find('td', class_="text-top").text[21:].replace('"',"") #extrai o nome do estudo
                         
-            PI = soup.find_all("td")[6].text #extrai o PI
+            #extrai o nome do estudo
+            nome_estudo = soup.find('td', class_="text-top").text[21:].replace('"',"") 
+                        
+            #extrai o PI
+            PI = soup.find_all("td")[6].text 
             PI = PI.replace("\n", "")
 
-            a = soup.find(id='formDetalharProjeto:tableTramiteApreciacaoProjeto:tb') #extrai o primeiro histórico de trâmites
-
+            #extrai o primeiro histórico de trâmites
+            a = soup.find(id='formDetalharProjeto:tableTramiteApreciacaoProjeto:tb') 
             time.sleep(2)
             a = a.find_all('span')
             b = []
-
             for span in a:
                 b.append(span.text)
-            
+
             q = []
             output = []
             x = 0
@@ -236,6 +237,7 @@ for i in CAAE:
             print(con)
 
             break
+
         except Exception as e:
             retry_count += 1
             print(f"Erro no CAAE {i}: {e}. Tentativa {retry_count} de {max_retries}")
@@ -243,41 +245,36 @@ for i in CAAE:
             wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() #voltar ao menu
             time.sleep(10)
 
-
 print("Trâmites extraidos")
+
 driver.close()
 
-# Criar DataFrame com as informações de estudo, CAAE e tabela do histórico de tramites
-hoje = pd.DataFrame(zip(df_CAAE, df_email), columns=['CAAE', "email"])
-hoje = hoje.sort_values(by=['CAAE'])
-
-# Substituir "ontem2"
-os.replace("ontem2.csv", "ontem3.csv")
-
-# Substituir "ontem1"
-os.replace("ontem1.csv", "ontem2.csv")
-
 # Substituir "Hoje"
-os.replace("hoje.csv", "ontem1.csv")
+os.replace("new.csv", "old.csv")
+
+# Criar DataFrame com as informações de estudo, CAAE e tabela do histórico de tramites
+new = pd.DataFrame(zip(df_CAAE, df_email), columns=['CAAE', "email"]).sort_values(by=['CAAE'])
 
 # Criar o CSV para salvar para comparar 
-hoje.to_csv("hoje.csv", index=False)
+new.to_csv("new.csv", index=False)
 
 # Comparar os resultados
-ontem = pd.read_csv("ontem1.csv")
-
-comparar = pd.merge(hoje, ontem, on='CAAE')
+old = pd.read_csv("old.csv")
+comparar = pd.merge(
+    new, 
+    old, 
+    on = 'CAAE', 
+    how = 'outer',
+    )
 comparar = comparar[comparar["email_x"] != comparar["email_y"]]
-#print(comparar)
-
-# Salva o df comparar em csv
-comparar.to_csv("comparar.csv", index=False)
 
 # Monta lista com os email
-corpo_do_email = comparar['email_x'].tolist()
-join1 = '<br/>'.join(corpo_do_email)
+join1 = comparar['email_x'].tolist()
 
-vezes = len(corpo_do_email)
+vezes = len(join1)
+
+join1 = '<br/>'.join(join1)
+print(join1)
 
 # Config do email
 data = datetime.date.today().strftime('%d/%m/%Y')

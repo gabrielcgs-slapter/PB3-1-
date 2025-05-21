@@ -351,3 +351,9 @@
 
 2025-05-19 08:17:46.320275-03:00 - O programa comecou a rodar. 
 19/05/2025 08:17:46 - O email foi enviado com sucesso. 2 estudos atualizados. Demorou: 0:44:37.488168 minutos
+
+2025-05-21 11:04:48.070889-03:00 - O programa comecou a rodar. 
+21/05/2025 11:04:48 - O email foi enviado com sucesso. 86 estudos atualizados. Demorou: 0:57:28.160886 minutos
+
+2025-05-21 14:26:41.226591-03:00 - O programa comecou a rodar. 
+21/05/2025 14:26:41 - O email foi enviado com sucesso. 17070 estudos atualizados. Demorou: 1:26:44.164904 minutos
