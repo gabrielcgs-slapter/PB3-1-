@@ -698,3 +698,7 @@ Stacktrace:
 2025-05-22 10:00:31,271 - INFO - <ipython-input-33-be09bfa39f53>.main - Tempo total de execução: 0:01:39
 2025-05-22 10:00:31,272 - INFO - <ipython-input-33-be09bfa39f53>.main - Número de estudos atualizados/novos: 0
 2025-05-22 10:00:31,273 - INFO - <ipython-input-33-be09bfa39f53>.main - Status final do Email: Status do email não determinado devido a erro.
+
+
+2025-05-22 13:24:56.051718-03:00 - O programa comecou a rodar. 
+22/05/2025 13:24:56 - O email foi enviado com sucesso. 6 estudos atualizados. Demorou: 0:47:55.771844 minutos

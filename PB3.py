@@ -50,7 +50,7 @@ options.add_argument("--blink-settings=imagesEnabled=false")  # Desativa imagens
 options.add_argument("--disable-extensions")  # Desativa extensões
 options.add_argument("--disable-popup-blocking")  # Evita bloqueios de pop-up
 options.add_argument("--disable-infobars")  # Remove barra de informações do Chrome
-options.add_argument("--headless")  # Modo headless (opcional)
+#options.add_argument("--headless")  # Modo headless (opcional)
 service = Service(ChromeDriverManager().install())
 
 data_hora0 = datetime.datetime.now(timezone)
@@ -242,8 +242,10 @@ for i in CAAE:
             retry_count += 1
             print(f"Erro no CAAE {i}: {e}. Tentativa {retry_count} de {max_retries}")
             # Recarregar página ou voltar à página inicial
-            wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() #voltar ao menu
+            driver.refresh()
             time.sleep(10)
+            wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() #voltar ao menu
+            
 
 print("Trâmites extraidos")
 
