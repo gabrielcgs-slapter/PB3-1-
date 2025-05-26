@@ -44,12 +44,12 @@ for proc in psutil.process_iter(attrs=["pid", "name"]):
             
 options = Options()
 #options.add_argument("--disable-gpu")  # Desativa GPU para melhorar desempenho
-options.add_argument("--no-sandbox")  # Evita problemas de permissão
-options.add_argument("--disable-dev-shm-usage")  # Melhora estabilidade
-options.add_argument("--blink-settings=imagesEnabled=false")  # Desativa imagens
-options.add_argument("--disable-extensions")  # Desativa extensões
-options.add_argument("--disable-popup-blocking")  # Evita bloqueios de pop-up
-options.add_argument("--disable-infobars")  # Remove barra de informações do Chrome
+#options.add_argument("--no-sandbox")  # Evita problemas de permissão
+#options.add_argument("--disable-dev-shm-usage")  # Melhora estabilidade
+#options.add_argument("--blink-settings=imagesEnabled=false")  # Desativa imagens
+#options.add_argument("--disable-extensions")  # Desativa extensões
+#options.add_argument("--disable-popup-blocking")  # Evita bloqueios de pop-up
+#options.add_argument("--disable-infobars")  # Remove barra de informações do Chrome
 options.add_argument("--headless")  # Modo headless (opcional)
 service = Service(ChromeDriverManager().install())
 
