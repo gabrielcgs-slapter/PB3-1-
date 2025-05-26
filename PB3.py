@@ -19,6 +19,9 @@ import email.message
 import psutil
 import re
 import numpy as np
+# import dotenv
+
+
 
 #destinatário = 'gabriel.calazans@ini.fiocruz.br'
 destinatário = 'regulatorios@ini.fiocruz.br'
@@ -50,7 +53,7 @@ options.add_argument("--blink-settings=imagesEnabled=false")  # Desativa imagens
 options.add_argument("--disable-extensions")  # Desativa extensões
 options.add_argument("--disable-popup-blocking")  # Evita bloqueios de pop-up
 options.add_argument("--disable-infobars")  # Remove barra de informações do Chrome
-#options.add_argument("--headless")  # Modo headless (opcional)
+options.add_argument("--headless")  # Modo headless (opcional)
 service = Service(ChromeDriverManager().install())
 
 data_hora0 = datetime.datetime.now(timezone)
@@ -122,7 +125,7 @@ for i in range(paginas+1):
 list_CAAE = set(list_CAAE)
 list_CAAE = list(list_CAAE)
 list_CAAE = [item.replace("\n", "") if isinstance(item, str) else item for item in list_CAAE]
-print(f"CAAEs válidos extraídos: {len(list_CAAE)}")
+#print(f"CAAEs válidos extraídos: {len(list_CAAE)}")
 
 CAAE = list_CAAE
 
@@ -276,7 +279,7 @@ join1 = comparar['email_x'].tolist()
 vezes = len(join1)
 
 join1 = '<br/>'.join(join1)
-print(join1)
+#print(join1)
 
 # Config do email
 data = datetime.date.today().strftime('%d/%m/%Y')
