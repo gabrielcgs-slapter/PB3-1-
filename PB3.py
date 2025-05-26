@@ -30,7 +30,7 @@ destinatário = 'regulatorios@ini.fiocruz.br'
 login = "gabrielcgs12@gmail.com"; senha = "0Dije!c!"
 
 # TANIA LOGIN
-#login = "tania.krstic@ini.fiocruz.br"; senha = "987654"
+#login = "tania.krstic@ipec.fiocruz.br"; senha = "987654"
 
 timezone = pytz.timezone('Etc/GMT+3')
 
@@ -161,7 +161,15 @@ for i in CAAE:
             soup = BeautifulSoup(driver.page_source, 'html.parser')
             
             wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() #voltar ao menu
-                        
+            print(f"Saiu da página do CAAE {i}")
+
+            #Contador
+            t2 = datetime.datetime.now(timezone)
+            t = t2-t1
+            count = count + 1
+            con = f'Progresso: {count}/{len(CAAE)} Duração: {str(t)[2:9]}'
+            print(con)
+
             #extrai o nome do estudo
             nome_estudo = soup.find('td', class_="text-top").text[21:].replace('"',"") 
                         
@@ -231,13 +239,8 @@ for i in CAAE:
             df_email.append(corpo_email)
             df_CAAE.append(CAAE_estudo)
             
-            t2 = datetime.datetime.now(timezone)
-            t = t2-t1
+            
 
-            #Contador
-            count = count + 1
-            con = f'Progresso: {count}/{len(CAAE)} Duração: {str(t)[2:9]}'
-            print(con)
             break
 
         except Exception as e:
@@ -246,7 +249,6 @@ for i in CAAE:
             # Recarregar página ou voltar à página inicial
             driver.get("https://plataformabrasil.saude.gov.br/visao/pesquisador/gerirPesquisa/gerirPesquisaAgrupador.jsf")
             time.sleep(10)
-            wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() #voltar ao menu
             
 
 print("Trâmites extraidos")
