@@ -255,19 +255,14 @@ print("Trâmites extraidos")
 
 driver.close()
 
-# Substituir "Hoje"
-os.replace("new.csv", "old.csv")
-
 # Criar DataFrame com as informações de estudo, CAAE e tabela do histórico de tramites
-new = pd.DataFrame(zip(df_CAAE, df_email), columns=['CAAE', "email"]).sort_values(by=['CAAE'])
-
-# Criar o CSV para salvar para comparar 
-new.to_csv("new.csv", index=False)
+now = pd.DataFrame(zip(df_CAAE, df_email), columns=['CAAE', "email"]).sort_values(by=['CAAE'])
 
 # Comparar os resultados
-old = pd.read_csv("old.csv")
+old = pd.read_csv("new.csv")
+
 comparar = pd.merge(
-    new, 
+    now, 
     old, 
     on = 'CAAE', 
     how = 'outer',
@@ -335,6 +330,11 @@ if vezes > 0:
     file.write(f'\n\n{data_hora00} - O programa comecou a rodar. \n')
     file.write(f'{data_hora_str} - O email foi enviado com sucesso. {vezes} estudos atualizados. Demorou: {tempo} minutos')
     file.close()
+    
+    # Atualizar CSV
+    os.replace("new.csv", "old.csv")
+    now.to_csv("new.csv", index=False)
+    
     enviar_email()
     print(f"Email enviado. Hora de término: {data_hora_str[0:16]}. Duração: {tempo_str[0:16]}")
     
