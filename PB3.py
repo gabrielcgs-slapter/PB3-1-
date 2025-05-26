@@ -46,14 +46,14 @@ for proc in psutil.process_iter(attrs=["pid", "name"]):
 
             
 options = Options()
-#options.add_argument("--disable-gpu")  # Desativa GPU para melhorar desempenho
-#options.add_argument("--no-sandbox")  # Evita problemas de permissão
-#options.add_argument("--disable-dev-shm-usage")  # Melhora estabilidade
-#options.add_argument("--blink-settings=imagesEnabled=false")  # Desativa imagens
-#options.add_argument("--disable-extensions")  # Desativa extensões
-#options.add_argument("--disable-popup-blocking")  # Evita bloqueios de pop-up
-#options.add_argument("--disable-infobars")  # Remove barra de informações do Chrome
-#options.add_argument("--headless")  # Modo headless (opcional)
+options.add_argument("--disable-gpu")  # Desativa GPU para melhorar desempenho
+options.add_argument("--no-sandbox")  # Evita problemas de permissão
+options.add_argument("--disable-dev-shm-usage")  # Melhora estabilidade
+options.add_argument("--blink-settings=imagesEnabled=false")  # Desativa imagens
+options.add_argument("--disable-extensions")  # Desativa extensões
+options.add_argument("--disable-popup-blocking")  # Evita bloqueios de pop-up
+options.add_argument("--disable-infobars")  # Remove barra de informações do Chrome
+options.add_argument("--headless")  # Modo headless (opcional)
 service = Service(ChromeDriverManager().install())
 
 data_hora0 = datetime.datetime.now(timezone)
@@ -274,19 +274,8 @@ join1 = comparar['email_x'].tolist()
 
 vezes = len(join1)
 
-join1 = '<br/>'.join(join1)
-#print(join1)
-
-# Config do email
-data = datetime.date.today().strftime('%d/%m/%Y')
-data_hora = datetime.datetime.now(timezone) 
-data_hora = data_hora.strftime("%d/%m/%Y %H:%M:%S")
-
-print("configurando email")
-
-
 def enviar_email():
-    
+    # Config do email
     data_hora1 = datetime.datetime.now(timezone)
     str_data_hora1 = data_hora1.strftime("%d/%m/%Y %H:%M:%S")
     tempo = (data_hora1 - data_hora0)
@@ -317,14 +306,22 @@ def enviar_email():
     s.login(msg['From'], password)
     s.sendmail(msg['From'], [msg['To']], msg.as_string().encode('utf-8'))
 
-# Enviar email e registrar o término do programa
-
-data_hora1 = datetime.datetime.now(timezone)
-data_hora_str = data_hora1.strftime("%d/%m/%Y %H:%M:%S")
-tempo = (data_hora1 - data_hora0)
-tempo_str = str(tempo)
-
 if vezes > 0:
+    join1 = '<br/>'.join(join1)
+
+    
+    data = datetime.date.today().strftime('%d/%m/%Y')
+    data_hora = datetime.datetime.now(timezone) 
+    data_hora = data_hora.strftime("%d/%m/%Y %H:%M:%S")
+
+    print("configurando email")
+
+    # Enviar email e registrar o término do programa
+    data_hora1 = datetime.datetime.now(timezone)
+    data_hora_str = data_hora1.strftime("%d/%m/%Y %H:%M:%S")
+    tempo = (data_hora1 - data_hora0)
+    tempo_str = str(tempo)
+
     data_hora_str = data_hora0.strftime("%d/%m/%Y %H:%M:%S")
     file = open("registro.txt", "a")
     file.write(f'\n\n{data_hora00} - O programa comecou a rodar. \n')
