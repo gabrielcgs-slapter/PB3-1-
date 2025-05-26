@@ -53,7 +53,7 @@ options = Options()
 #options.add_argument("--disable-extensions")  # Desativa extensões
 #options.add_argument("--disable-popup-blocking")  # Evita bloqueios de pop-up
 #options.add_argument("--disable-infobars")  # Remove barra de informações do Chrome
-options.add_argument("--headless")  # Modo headless (opcional)
+#options.add_argument("--headless")  # Modo headless (opcional)
 service = Service(ChromeDriverManager().install())
 
 data_hora0 = datetime.datetime.now(timezone)
@@ -61,7 +61,7 @@ data_hora00 = str(data_hora0)
 print(f"Hora de início: {str(data_hora0)[0:16]}")
 
 driver = webdriver.Chrome(service=service, options=options)
-wait = WebDriverWait(driver, 300)
+wait = WebDriverWait(driver, 120)
 driver.get("https://plataformabrasil.saude.gov.br/login.jsf")
 driver.maximize_window()
 
@@ -156,7 +156,7 @@ for i in CAAE:
                     o += 1
 
             time.sleep(5)
-
+            print(f"Entrou na página do CAAE {i}")
             
             soup = BeautifulSoup(driver.page_source, 'html.parser')
             
@@ -238,14 +238,13 @@ for i in CAAE:
             count = count + 1
             con = f'Progresso: {count}/{len(CAAE)} Duração: {str(t)[2:9]}'
             print(con)
-
             break
 
         except Exception as e:
             retry_count += 1
             print(f"Erro no CAAE {i}: {e}. Tentativa {retry_count} de {max_retries}")
             # Recarregar página ou voltar à página inicial
-            driver.refresh()
+            driver.get("https://plataformabrasil.saude.gov.br/visao/pesquisador/gerirPesquisa/gerirPesquisaAgrupador.jsf")
             time.sleep(10)
             wait.until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[2]/div/div[3]/div[2]/form/a[2]'))).click() #voltar ao menu
             
