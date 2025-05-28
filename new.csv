@@ -160,6 +160,30 @@ CAAE,email
                             <tbody>
                     <tr>
                     <th>1</th> 
+                    <td>N281</td> 
+                    <td>28/05/2025 10:24:15</td> 
+                    <td>Notificação enviada</td> 
+                    <td>14</td> 
+                    <td>Pesquisador</td> 
+                    <td>PESQUISADOR</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>101_DESVIO_A5300B_PHOENIx_2025_05_23_AM</td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>N280</td> 
+                    <td>28/05/2025 10:23:05</td> 
+                    <td>Notificação enviada</td> 
+                    <td>14</td> 
+                    <td>Pesquisador</td> 
+                    <td>PESQUISADOR</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>97_DESVIO_A5300B_PHOENIx_2025_05_20_rev_AM</td>
+                    </tr>
+                    
+                    <tr>
+                    <th>3</th> 
                     <td>N279</td> 
                     <td>23/05/2025 12:30:07</td> 
                     <td>Aceitação do PP</td> 
@@ -171,7 +195,7 @@ CAAE,email
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>4</th> 
                     <td>N278</td> 
                     <td>23/05/2025 12:27:02</td> 
                     <td>Aceitação do PP</td> 
@@ -183,7 +207,7 @@ CAAE,email
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>5</th> 
                     <td>N277</td> 
                     <td>23/05/2025 12:19:31</td> 
                     <td>Rejeição do PP</td> 
@@ -197,7 +221,7 @@ Favor verificar na página 06, a data do </td>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>6</th> 
                     <td>N279</td> 
                     <td>22/05/2025 14:57:06</td> 
                     <td>Notificação enviada</td> 
@@ -209,7 +233,7 @@ Favor verificar na página 06, a data do </td>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>7</th> 
                     <td>N278</td> 
                     <td>22/05/2025 11:23:19</td> 
                     <td>Notificação enviada</td> 
@@ -221,7 +245,7 @@ Favor verificar na página 06, a data do </td>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>8</th> 
                     <td>N277</td> 
                     <td>20/05/2025 14:54:33</td> 
                     <td>Notificação enviada</td> 
@@ -233,7 +257,7 @@ Favor verificar na página 06, a data do </td>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>9</th> 
                     <td>N276</td> 
                     <td>12/05/2025 08:55:25</td> 
                     <td>Aceitação do PP</td> 
@@ -245,7 +269,7 @@ Favor verificar na página 06, a data do </td>
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>10</th> 
                     <td>N276</td> 
                     <td>09/05/2025 14:29:58</td> 
                     <td>Notificação enviada</td> 
@@ -254,30 +278,6 @@ Favor verificar na página 06, a data do </td>
                     <td>PESQUISADOR</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>Desvios 25/04/2025</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>E12</td> 
-                    <td>09/05/2025 14:02:32</td> 
-                    <td>Parecer liberado</td> 
-                    <td>14</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>PESQUISADOR</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>E12</td> 
-                    <td>09/05/2025 13:40:59</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>14</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
                     </tr>
                     </tbody> 
                             </table>

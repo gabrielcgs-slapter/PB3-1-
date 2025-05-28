@@ -11919,6 +11919,18 @@ Como o projeto não aplicará TCLE. Solici</td>
                     <tr>
                     <th>1</th> 
                     <td>PO</td> 
+                    <td>27/05/2025 15:20:37</td> 
+                    <td>Aceitação do PP</td> 
+                    <td>1</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>PO</td> 
                     <td>26/05/2025 12:23:33</td> 
                     <td>Submetido para avaliação do CEP</td> 
                     <td>1</td> 
@@ -11929,7 +11941,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>PO</td> 
                     <td>26/05/2025 12:23:30</td> 
                     <td>Parecer liberado</td> 
@@ -11941,7 +11953,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>4</th> 
                     <td>PO</td> 
                     <td>26/05/2025 11:29:53</td> 
                     <td>Parecer do colegiado emitido</td> 
@@ -11953,7 +11965,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>5</th> 
                     <td>PO</td> 
                     <td>26/05/2025 11:29:09</td> 
                     <td>Parecer do relator emitido</td> 
@@ -11965,7 +11977,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>6</th> 
                     <td>PO</td> 
                     <td>22/05/2025 08:35:24</td> 
                     <td>Aceitação de Elaboração de Relatoria</td> 
@@ -11977,7 +11989,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>7</th> 
                     <td>PO</td> 
                     <td>13/05/2025 17:14:23</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
@@ -11989,7 +12001,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>8</th> 
                     <td>PO</td> 
                     <td>13/05/2025 16:43:40</td> 
                     <td>Indicação de Relatoria</td> 
@@ -12001,7 +12013,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>9</th> 
                     <td>PO</td> 
                     <td>13/05/2025 08:56:51</td> 
                     <td>Aceitação do PP</td> 
@@ -12013,7 +12025,7 @@ Como o projeto não aplicará TCLE. Solici</td>
                     </tr>
                     
                     <tr>
-                    <th>9</th> 
+                    <th>10</th> 
                     <td>PO</td> 
                     <td>12/05/2025 19:08:44</td> 
                     <td>Submetido para avaliação do CEP</td> 
