@@ -309,7 +309,6 @@ def enviar_email():
 if vezes > 0:
     join1 = '<br/>'.join(join1)
 
-    
     data = datetime.date.today().strftime('%d/%m/%Y')
     data_hora = datetime.datetime.now(timezone) 
     data_hora = data_hora.strftime("%d/%m/%Y %H:%M:%S")
@@ -339,6 +338,10 @@ else:
     data_hora_str = data_hora0.strftime("%d/%m/%Y %H:%M:%S")
     file = open("registro.txt", "a")
     file.write(f'\n\n{data_hora00} - O programa comecou a rodar. \n')
+    data_hora1 = datetime.datetime.now(timezone)
+    data_hora_str = data_hora1.strftime("%d/%m/%Y %H:%M:%S")
+    tempo = (data_hora1 - data_hora0)
+    tempo_str = str(tempo)
     file.write(f'{data_hora_str} - O email nao precisou ser enviado. {vezes} estudos atualizados. Demorou: {tempo} minutos')
     file.close()
     print(f"Não foi necessário enviar email. Hora de término: {data_hora_str[0:16]}. Duração: {tempo_str[0:16]}")
