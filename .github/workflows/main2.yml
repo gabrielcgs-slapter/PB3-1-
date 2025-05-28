@@ -1,0 +1,100 @@
+name: Run PB3
+
+on:
+  #push:
+   # branches:
+    #  - main
+  schedule:
+    - cron: '0 11 * * 1-5'  # Executa seg-sex às 08:00 UTC (11:00 BRT/BRST)
+    - cron: '0 15 * * 1-5'  # Executa seg-sex às 12:00 UTC (15:00 BRT/BRST)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Adiciona permissão de escrita
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar ambiente Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Instalar Google Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
+      - name: Verificar instalação do Chrome
+        run: google-chrome --version
+
+      - name: Instalar dependências
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # --- PASSO MODIFICADO COM LÓGICA DE RETRY ---
+      - name: Executar script Python com retries
+        # Habilite o bloco env se o seu script PB3.py precisar destas variáveis de ambiente
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: |
+          # --- Configurações de Retry ---
+          MAX_RETRIES=5         # Número máximo de tentativas (1 inicial + 4 retries)
+          RETRY_DELAY_SECONDS=15 # Tempo de espera entre as tentativas (em segundos)
+
+          # --- Comando a ser executado e retentado ---
+          # Certifique-se de que este comando é o que você quer retentar
+          COMMAND="python PB3.py"
+
+          # --- Lógica de Retry (não precisa alterar abaixo, a menos que saiba o que está fazendo) ---
+          ATTEMPT=1
+          SUCCESS=false
+
+          while [ $ATTEMPT -le $MAX_RETRIES ]; do
+            echo "--- Attempt $ATTEMPT of $MAX_RETRIES ---"
+            # Execute o comando. Use '|| true' para que o step não falhe imediatamente
+            # se o comando retornar um código de saída diferente de zero.
+            # A falha real será tratada pela verificação do EXIT_CODE no script bash.
+            # Nota: Se o comando precisar de variáveis de ambiente definidas no 'env:'
+            # deste step, elas já estarão disponíveis aqui.
+            $COMMAND
+            EXIT_CODE=$? # Captura o código de saída do último comando executado ($COMMAND)
+
+            if [ $EXIT_CODE -eq 0 ]; then
+              echo "Command successful on attempt $ATTEMPT."
+              SUCCESS=true
+              break # Sai do loop se o comando for bem-sucedido
+            else
+              echo "Command failed on attempt $ATTEMPT with exit code $EXIT_CODE."
+              if [ $ATTEMPT -lt $MAX_RETRIES ]; then
+                echo "Retrying in $RETRY_DELAY_SECONDS seconds..."
+                sleep $RETRY_DELAY_SECONDS # Espera antes da próxima tentativa
+              fi
+            fi
+
+            ATTEMPT=$((ATTEMPT + 1)) # Incrementa o contador de tentativa
+          done
+
+          # --- Verificação final ---
+          # Se o loop terminou e SUCCESS ainda é false, significa que todas as tentativas falharam.
+          if [ "$SUCCESS" = "false" ]; then
+            echo "Command '$COMMAND' failed after $MAX_RETRIES attempts."
+            exit 1 # Garante que o step no GitHub Actions seja marcado como falha.
+          fi
+        shell: bash # Especifica explicitamente o shell a ser usado para este step
+
+      # --- PASSO ORIGINAL CONTINUA ABAIXO ---
+      - name: Commitar arquivos modificados
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Atualização automática dos arquivos"
+          git push
+        continue-on-error: true # Mantém esta configuração se desejado
