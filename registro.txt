@@ -720,3 +720,6 @@ Stacktrace:
 
 2025-05-28 12:27:41.979211-03:00 - O programa comecou a rodar. 
 28/05/2025 12:27:41 - O email foi enviado com sucesso. 1 estudos atualizados. Demorou: 0:27:45.990300 minutos
+
+2025-05-29 08:08:05.564424-03:00 - O programa comecou a rodar. 
+29/05/2025 08:08:05 - O email foi enviado com sucesso. 8 estudos atualizados. Demorou: 0:28:33.003820 minutos
