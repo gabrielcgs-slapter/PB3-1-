@@ -3981,6 +3981,42 @@ O arquivo em word não é o mesmo que o ar</td>
                     <tr>
                     <th>1</th> 
                     <td>N13</td> 
+                    <td>29/05/2025 09:04:35</td> 
+                    <td>Parecer do colegiado em análise</td> 
+                    <td>11</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>N13</td> 
+                    <td>29/05/2025 09:03:33</td> 
+                    <td>Reserva retirada</td> 
+                    <td>11</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td>Reserva do parecer do colegiado retirada pelo Asse</td>
+                    </tr>
+                    
+                    <tr>
+                    <th>3</th> 
+                    <td>N13</td> 
+                    <td>29/05/2025 09:02:31</td> 
+                    <td>Parecer do colegiado em análise</td> 
+                    <td>11</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>4</th> 
+                    <td>N13</td> 
                     <td>26/05/2025 16:34:57</td> 
                     <td>Parecer do relator emitido</td> 
                     <td>11</td> 
@@ -3991,7 +4027,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>5</th> 
                     <td>N13</td> 
                     <td>25/05/2025 11:35:57</td> 
                     <td>Aceitação de Elaboração de Relatoria</td> 
@@ -4003,7 +4039,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>6</th> 
                     <td>N13</td> 
                     <td>14/05/2025 11:53:35</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
@@ -4015,7 +4051,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>7</th> 
                     <td>N13</td> 
                     <td>14/05/2025 08:11:16</td> 
                     <td>Indicação de Relatoria</td> 
@@ -4027,7 +4063,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>8</th> 
                     <td>N13</td> 
                     <td>14/05/2025 08:08:32</td> 
                     <td>Nota Técnica Liberada</td> 
@@ -4039,7 +4075,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>9</th> 
                     <td>N13</td> 
                     <td>14/05/2025 08:05:30</td> 
                     <td>Nota Técnica em Análise</td> 
@@ -4051,7 +4087,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>10</th> 
                     <td>N13</td> 
                     <td>14/05/2025 08:04:32</td> 
                     <td>Aceitação do PP</td> 
@@ -4059,42 +4095,6 @@ O arquivo em word não é o mesmo que o ar</td>
                     <td>Assessor</td> 
                     <td>CONEP</td> 
                     <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>8</th> 
-                    <td>N13</td> 
-                    <td>09/05/2025 13:25:24</td> 
-                    <td>Notificação enviada</td> 
-                    <td>11</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>CONEP</td> 
-                    <td>Reaprovação anual</td>
-                    </tr>
-                    
-                    <tr>
-                    <th>9</th> 
-                    <td>N13</td> 
-                    <td>09/05/2025 13:25:24</td> 
-                    <td>Parecer liberado</td> 
-                    <td>11</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N13</td> 
-                    <td>09/05/2025 11:25:57</td> 
-                    <td>Parecer do colegiado emitido</td> 
-                    <td>11</td> 
-                    <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td></td>
                     </tr>
                     </tbody> 
@@ -4122,6 +4122,18 @@ O arquivo em word não é o mesmo que o ar</td>
                     <tr>
                     <th>1</th> 
                     <td>N11</td> 
+                    <td>29/05/2025 09:52:35</td> 
+                    <td>Confirmação de Indicação de Relatoria</td> 
+                    <td>8</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>N11</td> 
                     <td>27/05/2025 07:34:25</td> 
                     <td>Indicação de Relatoria</td> 
                     <td>8</td> 
@@ -4132,7 +4144,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>N11</td> 
                     <td>23/05/2025 12:12:49</td> 
                     <td>Aceitação do PP</td> 
@@ -4144,7 +4156,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>4</th> 
                     <td>N11</td> 
                     <td>22/05/2025 10:04:30</td> 
                     <td>Notificação enviada</td> 
@@ -4156,7 +4168,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>5</th> 
                     <td>E3</td> 
                     <td>16/05/2025 10:30:06</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
@@ -4168,7 +4180,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>6</th> 
                     <td>E3</td> 
                     <td>16/05/2025 10:09:13</td> 
                     <td>Indicação de Relatoria</td> 
@@ -4180,7 +4192,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>7</th> 
                     <td>E3</td> 
                     <td>16/05/2025 10:08:46</td> 
                     <td>Nota Técnica Liberada</td> 
@@ -4192,7 +4204,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>8</th> 
                     <td>E3</td> 
                     <td>15/05/2025 15:57:37</td> 
                     <td>Nota Técnica em Análise</td> 
@@ -4204,7 +4216,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>9</th> 
                     <td>E3</td> 
                     <td>15/05/2025 15:57:33</td> 
                     <td>Aceitação do PP</td> 
@@ -4216,25 +4228,13 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>9</th> 
+                    <th>10</th> 
                     <td>E3</td> 
                     <td>15/05/2025 15:56:17</td> 
                     <td>Aceitação do PP</td> 
                     <td>9</td> 
                     <td>Assessor</td> 
                     <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>E3</td> 
-                    <td>09/05/2025 13:35:57</td> 
-                    <td>Submetido para avaliação do CEP</td> 
-                    <td>9</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>CONEP</td> 
                     <td></td>
                     </tr>
@@ -4686,6 +4686,18 @@ O arquivo em word não é o mesmo que o ar</td>
                     <tr>
                     <th>1</th> 
                     <td>N10</td> 
+                    <td>29/05/2025 09:53:16</td> 
+                    <td>Confirmação de Indicação de Relatoria</td> 
+                    <td>3</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>N10</td> 
                     <td>27/05/2025 07:36:44</td> 
                     <td>Indicação de Relatoria</td> 
                     <td>3</td> 
@@ -4696,7 +4708,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>N10</td> 
                     <td>27/05/2025 07:36:32</td> 
                     <td>Aceitação do PP</td> 
@@ -4708,7 +4720,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>4</th> 
                     <td>N10</td> 
                     <td>26/05/2025 14:56:35</td> 
                     <td>Notificação enviada</td> 
@@ -4720,7 +4732,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>5</th> 
                     <td>N9</td> 
                     <td>17/01/2025 14:58:41</td> 
                     <td>Aceitação do PP</td> 
@@ -4732,7 +4744,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>6</th> 
                     <td>N9</td> 
                     <td>14/01/2025 15:54:39</td> 
                     <td>Notificação enviada</td> 
@@ -4744,7 +4756,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>7</th> 
                     <td>N7</td> 
                     <td>16/12/2024 12:05:58</td> 
                     <td>Parecer liberado</td> 
@@ -4756,7 +4768,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>8</th> 
                     <td>N7</td> 
                     <td>16/12/2024 11:52:58</td> 
                     <td>Parecer do colegiado emitido</td> 
@@ -4768,7 +4780,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>9</th> 
                     <td>N7</td> 
                     <td>13/12/2024 15:58:14</td> 
                     <td>Parecer do relator emitido</td> 
@@ -4780,22 +4792,10 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>9</th> 
+                    <th>10</th> 
                     <td>N8</td> 
                     <td>03/12/2024 10:17:42</td> 
                     <td>Aceitação do PP</td> 
-                    <td>3</td> 
-                    <td>Coordenador</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N7</td> 
-                    <td>02/12/2024 13:50:24</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
                     <td>3</td> 
                     <td>Coordenador</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
@@ -5933,6 +5933,18 @@ tuberculose</b></p>
                     <tr>
                     <th>1</th> 
                     <td>N48</td> 
+                    <td>29/05/2025 09:49:11</td> 
+                    <td>Parecer liberado</td> 
+                    <td>11</td> 
+                    <td>Coordenador</td> 
+                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
+                    <td>PESQUISADOR</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>N48</td> 
                     <td>26/05/2025 12:27:46</td> 
                     <td>Parecer do colegiado emitido</td> 
                     <td>11</td> 
@@ -5943,7 +5955,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>N48</td> 
                     <td>23/05/2025 05:57:36</td> 
                     <td>Parecer do relator emitido</td> 
@@ -5955,7 +5967,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>4</th> 
                     <td>N48</td> 
                     <td>13/05/2025 18:10:16</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
@@ -5967,7 +5979,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>5</th> 
                     <td>N48</td> 
                     <td>12/05/2025 08:49:06</td> 
                     <td>Indicação de Relatoria</td> 
@@ -5979,7 +5991,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>6</th> 
                     <td>N48</td> 
                     <td>29/04/2025 08:40:53</td> 
                     <td>Aceitação do PP</td> 
@@ -5991,7 +6003,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>7</th> 
                     <td>N48</td> 
                     <td>28/04/2025 12:27:53</td> 
                     <td>Notificação enviada</td> 
@@ -6003,7 +6015,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>8</th> 
                     <td>N47</td> 
                     <td>14/01/2025 08:31:23</td> 
                     <td>Parecer liberado</td> 
@@ -6015,7 +6027,7 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>9</th> 
                     <td>N47</td> 
                     <td>13/01/2025 21:37:58</td> 
                     <td>Parecer do colegiado emitido</td> 
@@ -6027,24 +6039,12 @@ tuberculose</b></p>
                     </tr>
                     
                     <tr>
-                    <th>9</th> 
+                    <th>10</th> 
                     <td>N47</td> 
                     <td>10/01/2025 14:13:47</td> 
                     <td>Parecer do relator emitido</td> 
                     <td>11</td> 
                     <td>Membro do CEP</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>N47</td> 
-                    <td>18/12/2024 18:18:17</td> 
-                    <td>Confirmação de Indicação de Relatoria</td> 
-                    <td>11</td> 
-                    <td>Coordenador</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td>Instituto Nacional de Infectologia Evandro Chagas - INI / FIOCRUZ</td> 
                     <td></td>
