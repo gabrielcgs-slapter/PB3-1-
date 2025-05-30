@@ -4404,6 +4404,18 @@ O arquivo em word não é o mesmo que o ar</td>
                     <tr>
                     <th>1</th> 
                     <td>E4</td> 
+                    <td>30/05/2025 11:48:20</td> 
+                    <td>Parecer do colegiado liberado</td> 
+                    <td>8</td> 
+                    <td>Assessor</td> 
+                    <td>CONEP</td> 
+                    <td>CONEP</td> 
+                    <td></td>
+                    </tr>
+                    
+                    <tr>
+                    <th>2</th> 
+                    <td>E4</td> 
                     <td>28/05/2025 16:18:48</td> 
                     <td>Parecer do colegiado em análise</td> 
                     <td>8</td> 
@@ -4414,7 +4426,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>2</th> 
+                    <th>3</th> 
                     <td>E4</td> 
                     <td>28/05/2025 16:18:37</td> 
                     <td>Reserva retirada</td> 
@@ -4426,7 +4438,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>3</th> 
+                    <th>4</th> 
                     <td>E4</td> 
                     <td>28/05/2025 16:12:12</td> 
                     <td>Parecer do colegiado em análise</td> 
@@ -4438,7 +4450,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>4</th> 
+                    <th>5</th> 
                     <td>E4</td> 
                     <td>27/05/2025 12:42:35</td> 
                     <td>Parecer do relator emitido</td> 
@@ -4450,7 +4462,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>5</th> 
+                    <th>6</th> 
                     <td>N23</td> 
                     <td>26/05/2025 13:45:56</td> 
                     <td>Parecer liberado</td> 
@@ -4462,7 +4474,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>6</th> 
+                    <th>7</th> 
                     <td>N23</td> 
                     <td>26/05/2025 13:42:13</td> 
                     <td>Parecer do colegiado emitido</td> 
@@ -4474,7 +4486,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>7</th> 
+                    <th>8</th> 
                     <td>E4</td> 
                     <td>20/05/2025 10:07:39</td> 
                     <td>Aceitação de Elaboração de Relatoria</td> 
@@ -4486,7 +4498,7 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>8</th> 
+                    <th>9</th> 
                     <td>N23</td> 
                     <td>19/05/2025 20:20:11</td> 
                     <td>Parecer do relator emitido</td> 
@@ -4498,24 +4510,12 @@ O arquivo em word não é o mesmo que o ar</td>
                     </tr>
                     
                     <tr>
-                    <th>9</th> 
+                    <th>10</th> 
                     <td>E4</td> 
                     <td>16/05/2025 14:47:33</td> 
                     <td>Confirmação de Indicação de Relatoria</td> 
                     <td>8</td> 
                     <td>Administrador</td> 
-                    <td>CONEP</td> 
-                    <td>CONEP</td> 
-                    <td></td>
-                    </tr>
-                    
-                    <tr>
-                    <th>10</th> 
-                    <td>E4</td> 
-                    <td>16/05/2025 14:30:34</td> 
-                    <td>Indicação de Relatoria</td> 
-                    <td>8</td> 
-                    <td>Assessor</td> 
                     <td>CONEP</td> 
                     <td>CONEP</td> 
                     <td></td>
